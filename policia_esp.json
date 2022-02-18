@@ -9,16 +9,16 @@
     "ca": "Comissaries de policia en territori Espanyol"
   },
   "description": {
-    "es": "En España existen multitud de cuerpos policiales, es por eso que es importante añadir quien gestiona la comisaría. ¿Las comisarias de tu alrededor no tienen el operador añadido? ¡Ayúdanos! (De momento no se pueden añadir policias autonómicas a excepción de los Mossos d'Esquadra)",
-    "ca": "A Espanya existeixen multitud de cossos policials, és per això que és important afegir qui gestiona la comissaria. Les comissaries del teu voltant no tenen afegit l'operador? Ajuda'ns!! (De moment no hi és l'opció d'afegir les policies autonòmiques a excepció dels Mossos d'Esquadra)"
+    "es": "En España existen multitud de cuerpos policiales, es por eso que es importante añadir quien gestiona la comisaría.  Este tema usa los criterios para España reflejados en la wiki \"amenity=police\". ¿Las comisarias de tu alrededor no tienen el operador añadido? ¡Ayúdanos! (De momento no se pueden añadir policias autonómicas a excepción de los Mossos d'Esquadra)",
+    "ca": "A Espanya existeixen multitud de cossos policials, és per això que és important afegir qui gestiona la comissaria. Aquest tema usa els criteris per a Espanya reflectits en la wiki \"amenity=police\". Les comissaries del teu voltant no tenen afegit l'operador? Ajuda'ns!! (De moment no hi és l'opció d'afegir les policies autonòmiques a excepció dels Mossos d'Esquadra)"
   },
   "language": [
     "es",
     "ca"
   ],
   "maintainer": "",
-  "icon": "./assets/svg/bug.svg",
-  "version": "1.1",
+  "icon": "",
+  "version": "1.5",
   "startLat": 38.783,
   "startLon": -0.1641,
   "startZoom": 11,
@@ -129,7 +129,7 @@
         "mappings": []
       },
       "description": {
-        "es": "Esta capa muestra las comisarias de la Guardia Civil",
+        "es": "Esta capa muestra las comisarías de la Guardia Civil",
         "ca": "Aquesta capa mostra les comissaries de la Guardia Civil."
       },
       "tagRenderings": [
@@ -153,26 +153,27 @@
         },
         {
           "render": {
-            "es": "{operator:wikidata}",
-            "ca": "{operator:wikidata}"
+            "es": "El código wikidata del operador es {operator:wikidata}",
+            "ca": "El codi wikidata de l'operador és {operator:wikidata}"
           },
           "question": {
             "es": "¿Qué código wikidata corresponde a la Guardia Civil?",
             "ca": "¿Quin codi wikidata correspon a la Guardia Civil?"
           },
           "freeform": {
-            "key": "operator:wikidata"
+            "key": "operator:wikidata",
+            "type": "wikidata"
           },
           "mappings": []
         },
         {
           "render": {
-            "es": "{official_name}",
-            "ca": "{official_name}"
+            "es": "El nombre oficial de este cuartel es {official_name}",
+            "ca": "El nom oficial d'aquesta caserna és {official_name}"
           },
           "question": {
             "es": "¿Cuál es el nombre oficial de este cuartel de la Guardia Civil?",
-            "ca": "Quin és el nom offical d'aquest cuartel de la Guardia Civil?"
+            "ca": "Quin és el nom offical d'aquesta caserna de la Guardia Civil?"
           },
           "freeform": {
             "key": "official_name"
@@ -203,6 +204,9 @@
           "title": {
             "es": "Guardia Civil",
             "ca": "Guardia Civil"
+          },
+          "description": {
+            "es": ""
           }
         }
       ],
@@ -239,7 +243,7 @@
         {
           "render": {
             "es": "Comisaría gestionada por el {operator}",
-            "ca": "Comissaria gestionada per el {operator}"
+            "ca": "Comissaria gestionada pel {operator}"
           },
           "question": {
             "es": "¿Quién gestiona esta comisaría?",
@@ -248,6 +252,33 @@
           "freeform": {
             "key": "operator",
             "addExtraTags": []
+          }
+        },
+        {
+          "question": {
+            "ca": "¿Quin codi wikidata correspon a la Policia Nacional?",
+            "es": "¿Qué código wikidata corresponde a la Policía Nacional?"
+          },
+          "freeform": {
+            "key": "operator:wikidata",
+            "type": "wikidata"
+          },
+          "render": {
+            "es": "El código wikidata del operador es {operator:wikidata}",
+            "ca": "El codi wikidata de l'operador és {operator:wikidata}"
+          }
+        },
+        {
+          "render": {
+            "es": "El nombre oficial de esta comisaría es {official_name}",
+            "ca": "El nom oficial d'aquesta comissaria és {official_name}"
+          },
+          "question": {
+            "es": "¿Cuál es el nombre oficial de esta comisaría?",
+            "ca": "Quin és el nom oficial d'aquesta comissaria?"
+          },
+          "freeform": {
+            "key": "official_name"
           }
         }
       ],
@@ -377,7 +408,7 @@
       ],
       "hideUnderlayingFeaturesMinPercentage": 0,
       "icon": {
-        "render": "./assets/svg/bug.svg"
+        "render": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sobsz_-_gender_question_mark.svg"
       },
       "width": {
         "render": "8"
@@ -430,6 +461,33 @@
           },
           "freeform": {
             "key": "operator"
+          }
+        },
+        {
+          "render": {
+            "es": "El código wikidata del operador es {operator:wikidata}",
+            "ca": "El codi wikidata de l'operador és {operator:wikidata}"
+          },
+          "question": {
+            "es": "¿Qué código wikidata corresponde a los Mossos d'Esquadra?",
+            "ca": "¿Quin codi wikidata correspon als Mossos d'Esquadra?"
+          },
+          "freeform": {
+            "key": "operator:wikidata",
+            "type": "wikidata"
+          }
+        },
+        {
+          "render": {
+            "es": "El nombre oficial de esta comisaría es {official_name}",
+            "ca": "El nom oficial d'aquesta comissaria és {official_name}"
+          },
+          "question": {
+            "es": "¿Cuál es el nombre oficial de esta comisaría?",
+            "ca": "Quin és el nom oficial d'aquesta comissaria?"
+          },
+          "freeform": {
+            "key": "official_name"
           }
         }
       ],
