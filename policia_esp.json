@@ -1,0 +1,454 @@
+{
+  "id": "policia_esp",
+  "title": {
+    "es": "Policía en España",
+    "ca": "Policia a Espanya"
+  },
+  "shortDescription": {
+    "es": "Comisarías de policía en territorio español",
+    "ca": "Comissaries de policia en territori Espanyol"
+  },
+  "description": {
+    "es": "En España existen multitud de cuerpos policiales, es por eso que es importante añadir quien gestiona la comisaría. ¿Las comisarias de tu alrededor no tienen el operador añadido? ¡Ayúdanos! (De momento no se pueden añadir policias autonómicas a excepción de los Mossos d'Esquadra)",
+    "ca": "A Espanya existeixen multitud de cossos policials, és per això que és important afegir qui gestiona la comissaria. Les comissaries del teu voltant no tenen afegit l'operador? Ajuda'ns!! (De moment no hi és l'opció d'afegir les policies autonòmiques a excepció dels Mossos d'Esquadra)"
+  },
+  "language": [
+    "es",
+    "ca"
+  ],
+  "maintainer": "",
+  "icon": "./assets/svg/bug.svg",
+  "version": "1.1",
+  "startLat": 38.783,
+  "startLon": -0.1641,
+  "startZoom": 11,
+  "widenFactor": 0.05,
+  "socialImage": "",
+  "layers": [
+    {
+      "id": "local",
+      "name": {
+        "es": "Policía Local",
+        "ca": "Policia Local"
+      },
+      "minzoom": 11,
+      "overpassTags": {
+        "and": [
+          "amenity=police",
+          {
+            "or": [
+              "operator~^Policía Local",
+              "operator~^Policia Local",
+              "operator~^Policía Municipal",
+              "operator~^Guàrdia Urbana",
+              "operator~^Udaltzaingoa",
+              "operator~^Policia Municipal"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "render": {
+          "es": "{name}",
+          "ca": "{name}"
+        },
+        "mappings": []
+      },
+      "description": {
+        "es": "Esta capa muestra las comisarías de la policía local.",
+        "ca": "Aquesta capa mostra les comissaries de la policia local."
+      },
+      "tagRenderings": [
+        {
+          "question": {
+            "es": "¿Que policía local opera esta comisaria? (Policía Local de XXX)",
+            "ca": "Que policia local opera aquesta comissaria?"
+          },
+          "render": {
+            "es": "Operada por {operator}",
+            "ca": "Operada per {operator}"
+          },
+          "freeform": {
+            "key": "operator",
+            "addExtraTags": []
+          }
+        },
+        {
+          "render": {
+            "es": "{official_name}",
+            "ca": "{official_name}"
+          },
+          "question": {
+            "es": "¿Cual es el nombre oficial? (Policía (Local/ Municipal) de XXX)",
+            "ca": "Quin és el nom oficial?"
+          },
+          "freeform": {
+            "key": "official_name"
+          }
+        }
+      ],
+      "hideUnderlayingFeaturesMinPercentage": 0,
+      "icon": {
+        "render": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Policia_Local_Generalitat_Valenciana.PNG"
+      },
+      "width": {
+        "render": "8"
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "color": {
+        "render": "#00f"
+      },
+      "presets": [],
+      "wayHandling": 1
+    },
+    {
+      "id": "guardia",
+      "name": {
+        "es": "Guardia Civil",
+        "ca": "Guardia Civil"
+      },
+      "minzoom": 11,
+      "overpassTags": {
+        "and": [
+          "amenity=police",
+          {
+            "or": [
+              "operator~^Guardia Civil",
+              "operator~^Guàrdia Civil"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "render": {
+          "es": "{name}",
+          "ca": "{name}"
+        },
+        "mappings": []
+      },
+      "description": {
+        "es": "Esta capa muestra las comisarias de la Guardia Civil",
+        "ca": "Aquesta capa mostra les comissaries de la Guardia Civil."
+      },
+      "tagRenderings": [
+        {
+          "render": {
+            "es": "Comisaría gestionada por la {operator}",
+            "ca": "Comissaria gestionada per la {operator}"
+          },
+          "question": {
+            "es": "¿Quién gestiona esta comisaría?",
+            "ca": "Qui gestiona aquesta comissaria?"
+          },
+          "freeform": {
+            "key": "operator",
+            "addExtraTags": []
+          },
+          "mappings": [],
+          "condition": {
+            "and": []
+          }
+        },
+        {
+          "render": {
+            "es": "{operator:wikidata}",
+            "ca": "{operator:wikidata}"
+          },
+          "question": {
+            "es": "¿Qué código wikidata corresponde a la Guardia Civil?",
+            "ca": "¿Quin codi wikidata correspon a la Guardia Civil?"
+          },
+          "freeform": {
+            "key": "operator:wikidata"
+          },
+          "mappings": []
+        },
+        {
+          "render": {
+            "es": "{official_name}",
+            "ca": "{official_name}"
+          },
+          "question": {
+            "es": "¿Cuál es el nombre oficial de este cuartel de la Guardia Civil?",
+            "ca": "Quin és el nom offical d'aquest cuartel de la Guardia Civil?"
+          },
+          "freeform": {
+            "key": "official_name"
+          }
+        }
+      ],
+      "hideUnderlayingFeaturesMinPercentage": 0,
+      "icon": {
+        "render": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Logo_Guardia_Civil.png"
+      },
+      "width": {
+        "render": "8"
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "color": {
+        "render": "#00f"
+      },
+      "presets": [
+        {
+          "tags": [
+            "amenity=police",
+            "operator=Guardia Civil",
+            "operator:wikidata=Q50681172",
+            "operator:wikipedia=es:Guardia Civil"
+          ],
+          "title": {
+            "es": "Guardia Civil",
+            "ca": "Guardia Civil"
+          }
+        }
+      ],
+      "wayHandling": 1
+    },
+    {
+      "id": "nacional",
+      "name": {
+        "es": "Cuerpo Nacional de Policía",
+        "ca": "Cuerpo Nacional de Policía"
+      },
+      "minzoom": 11,
+      "overpassTags": {
+        "and": [
+          "amenity=police",
+          {
+            "or": [
+              "operator~^Cuerpo Nacional de Policía"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "render": {
+          "es": "{name}",
+          "ca": "{name}"
+        }
+      },
+      "description": {
+        "es": "Esta capa muestra las comisarías de la Policía Nacional.",
+        "ca": "Aquesta capa mostra les comissaries de la Policía Nacional."
+      },
+      "tagRenderings": [
+        {
+          "render": {
+            "es": "Comisaría gestionada por el {operator}",
+            "ca": "Comissaria gestionada per el {operator}"
+          },
+          "question": {
+            "es": "¿Quién gestiona esta comisaría?",
+            "ca": "Qui gestiona aquesta comissaria?"
+          },
+          "freeform": {
+            "key": "operator",
+            "addExtraTags": []
+          }
+        }
+      ],
+      "hideUnderlayingFeaturesMinPercentage": 0,
+      "icon": {
+        "render": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Logotipo_del_Cuerpo_Nacional_de_Polic%C3%ADa_de_Espa%C3%B1a.svg"
+      },
+      "width": {
+        "render": "8"
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "color": {
+        "render": "#00f"
+      },
+      "presets": [
+        {
+          "tags": [
+            "amenity=police",
+            "name=Policía Nacional",
+            "operator:wikipedia=es:Cuerpo Nacional de Policía",
+            "operator:wikidata=Q1143194",
+            "operator:short=CNP"
+          ],
+          "title": {
+            "es": "Policía Nacional",
+            "ca": "Policía Nacional"
+          }
+        }
+      ],
+      "wayHandling": 1
+    },
+    {
+      "id": "interrogant",
+      "name": {
+        "es": "Sin operador",
+        "ca": "Sense Operador"
+      },
+      "minzoom": 11,
+      "overpassTags": {
+        "and": [
+          "amenity=police",
+          {
+            "or": [
+              "operator!~^Policía Local",
+              "operator!~^Policia Local",
+              "operator!~^Policía Municipal",
+              "operator!~^Policia Municipal",
+              "operator!~^Guàrdia Urbana",
+              "operator!~^Udaltzaingoa"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "render": {
+          "es": "{name}",
+          "ca": "{name}"
+        }
+      },
+      "description": {
+        "es": "En esta capa se muestran aquellas comisarías que no tienen operador.",
+        "ca": "A aquesta capa es mostren les comissaries que no tenen l'operador afegit."
+      },
+      "tagRenderings": [
+        {
+          "question": {
+            "es": "¿Quien gestiona esta comisaría?",
+            "ca": "Qui gestiona aquesta comissaria?"
+          },
+          "render": {
+            "es": "Esta comisaria está gestionada por {operator}",
+            "ca": "Aquesta comissaria està gestionada per {operator}"
+          },
+          "freeform": {
+            "key": "operator",
+            "addExtraTags": []
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "operator=Guardia Civil",
+                  "operator:wikidata=Q932821",
+                  "operator:wikipedia=es:Guardia Civil",
+                  "name=Guardia Civil"
+                ]
+              },
+              "then": {
+                "es": "Guardia Civil",
+                "ca": "Guardia Civil"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "operator=Cuerpo Nacional de Policía",
+                  "operator:wikipedia=es:Cuerpo Nacional de Policía",
+                  "operator:wikidata=Q1143194",
+                  "operator:short=CNP",
+                  "name=Policía Nacional"
+                ]
+              },
+              "then": {
+                "es": "Cuerpo Nacional de Policía",
+                "ca": "Cuerpo Nacional de Policía"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "name=Mossos d'Esquadra",
+                  "operator=Mossos d'Esquadra",
+                  "operator:wikipedia=ca:Mossos d'Esquadra",
+                  "operator:wikidata=Q1424346",
+                  "name:ca=Mossos d'Esquadra"
+                ]
+              },
+              "then": {
+                "es": "Mossos d'Esquadra",
+                "ca": "Mossos d'Esquadra"
+              }
+            }
+          ]
+        }
+      ],
+      "hideUnderlayingFeaturesMinPercentage": 0,
+      "icon": {
+        "render": "./assets/svg/bug.svg"
+      },
+      "width": {
+        "render": "8"
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "color": {
+        "render": "#00f"
+      },
+      "presets": [],
+      "wayHandling": 1
+    },
+    {
+      "id": "mossos",
+      "name": {
+        "es": "Mossos d'Esquadra",
+        "ca": "Mossos d'Esquadra"
+      },
+      "minzoom": 11,
+      "overpassTags": {
+        "and": [
+          "amenity=police",
+          {
+            "and": [
+              "operator~^Mossos d'Esquadra"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "render": {
+          "es": "{name}",
+          "ca": "{name}"
+        }
+      },
+      "description": {
+        "es": "Esta capa muestra las comisarias de los Mossos d'Esquadra.",
+        "ca": "Aquesta capa mostra les comissaries dels Mossos d'Esqudra."
+      },
+      "tagRenderings": [
+        {
+          "render": {
+            "es": "Comisaría gestionada por los {operator}",
+            "ca": "Comissaria gestionada pels {operator}"
+          },
+          "question": {
+            "es": "¿Quién gestiona esta comisaría?",
+            "ca": "Qui gestiona aquesta comissasria?"
+          },
+          "freeform": {
+            "key": "operator"
+          }
+        }
+      ],
+      "hideUnderlayingFeaturesMinPercentage": 0,
+      "icon": {
+        "render": "https://upload.wikimedia.org/wikipedia/commons/7/75/Escut_Mossos_d%E2%80%99Esquadra.png"
+      },
+      "width": {
+        "render": "8"
+      },
+      "iconSize": {
+        "render": "40,40,center"
+      },
+      "color": {
+        "render": "#00f"
+      },
+      "presets": [],
+      "wayHandling": 1
+    }
+  ],
+  "roamingRenderings": []
+}
