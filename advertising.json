@@ -2,19 +2,23 @@
         "id": "advertising",
         "title": {
         "ca": "Publicitat",
-        "es": "Publicidad"
+        "es": "Publicidad",
+        "en": "Advertising"
         },
         "shortDescription": {
         "ca": "Completar dades sobre publicitat",
-        "es": "Completar datos sobre publicidad"
+        "es": "Completar datos sobre publicidad",
+        "en": "Complete data about advertising"
         },
         "description": {
         "ca": "Afegir dades de dispositius publicitaris",
-        "es": "Añadir datos de dispositivos publicitarios"
+        "es": "Añadir datos de dispositivos publicitarios",
+        "en": "Add data of advertising devices"
         },
         "language": [
         "ca",
-        "es"
+        "es",
+        "en"
         ],
         "maintainer": "",
         "icon": "",
@@ -28,8 +32,9 @@
         {
             "id": "advertising",
             "name": {
-            "ca": "Completem dades de portals",
-            "es": "Completamos datos de portales"
+            "ca": "Publicitat",
+            "es": "Publicidad",
+            "en": "Advertise"
             },
             "minzoom": 15,
             "overpassTags": {
@@ -40,7 +45,8 @@
             "title": {
             "render": {
                 "ca": "Publicitat",
-                "es": "Publicidad"
+                "es": "Publicidad",
+                "en": "Advertising"
             },
             "mappings": [
                 {
@@ -51,7 +57,8 @@
                   },
                   "then": {
                     "ca": "Tanca publicitària",
-                    "es": "Valla publicitaria"
+                    "es": "Valla publicitaria",
+                    "en": "Billboard"
                   }
                 },
                 {
@@ -62,24 +69,28 @@
                   },
                   "then": {
                     "ca": "Tauló d'anunis",
-                    "es": "Tablon de anuncios"
+                    "es": "Tablon de anuncios",
+                    "en": "Board"
                   }
                 }
             ]
             },
             "description": {
             "ca": "Completarem les dades dels dispositius publicitaris amb referència, operador i il·luminació",
-            "es": "Completaremos los datos de los dispositivos publicitarios con referencia, operador y iluminació"
+            "es": "Completaremos los datos de los dispositivos publicitarios con referencia, operador y iluminación",
+            "en": "We will complete data from advertising devices with reference, operator and lit"
             },
             "tagRenderings": [
             {
                 "render": {
                 "ca": "El número de referència és {ref}",
-                "es": "El número de referencia es {ref}"
+                "es": "El número de referencia es {ref}",
+                "en": "Reference number is {ref}"
                 },
                 "question": {
                 "ca": "Quin és el número de refèrencia?",
-                "es": "¿Cual es el número de referencia?"
+                "es": "¿Cual es el número de referencia?",
+                "en": "Wich is the reference number?"
                 },
                 "freeform": {
                 "key": "ref"
@@ -89,11 +100,13 @@
             {
                 "render": {
                 "ca": "L'operador és {operator}",
-                "es": "El operador es {operator}"
+                "es": "El operador es {operator}",
+                "en": "Operated by {operator}"
                 },
                 "question": {
                 "ca": "Qui opera aquest element?",
-                "es": "¿Quien opera este elemento?"
+                "es": "¿Quien opera este elemento?",
+                "en": "Who operates this feature?"
                 },
                 "freeform": {
                 "addExtraTags": [],
@@ -103,12 +116,14 @@
             },
             {
                 "render": {
-                "ca": "Iluminat?{lit}",
-                "es": "Iluminado{lit}"
+                "ca": "Iluminat {lit}",
+                "es": "Iluminado {lit}",
+                "en": "Lit {lit}"
                 },
                 "question": {
                 "ca": "Està il·luminat?",
-                "es": "Está iluminado?"
+                "es": "Está iluminado?",
+                "en": "Is lit?"
                 },
                 "freeform": {
                     "key": "lit"
@@ -122,7 +137,8 @@
                       },
                       "then": {
                         "ca": "Està il·luminat",
-                        "es": "Está iluminado"
+                        "es": "Está iluminado",
+                        "en": "Is lit"
                       }
                     },
                     {
@@ -133,7 +149,8 @@
                       },
                       "then": {
                         "ca": "No està il·luminat",
-                        "es": "No está iluminado"
+                        "es": "No está iluminado",
+                        "en": "Is not lit"
                       }
                     }
                 ]
@@ -321,8 +338,8 @@
                 "advertising=poster_box"
                 ],
                 "title": {
-                "ca": "un poster box",
-                "es": "un poster box"
+                "ca": "un Mupi",
+                "es": "un Mupi"
                 }
             },
             {
@@ -339,7 +356,7 @@
                 "advertising=sculpture"
                 ],
                 "title": {
-                "ca": "una escultura",
+                "ca": "una escupltura",
                 "es": "una escultura"
                 }
             },
