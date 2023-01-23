@@ -1,0 +1,387 @@
+    {
+        "id": "advertising",
+        "title": {
+        "ca": "Publicitat",
+        "es": "Publicidad"
+        },
+        "shortDescription": {
+        "ca": "Completar dades sobre publicitat",
+        "es": "Completar datos sobre publicidad"
+        },
+        "description": {
+        "ca": "Afegir dades de dispositius publicitaris",
+        "es": "Añadir datos de dispositivos publicitarios"
+        },
+        "language": [
+        "ca",
+        "es"
+        ],
+        "maintainer": "",
+        "icon": "",
+        "version": "2023_01_23",
+        "startLat": 0,
+        "startLon": 0,
+        "startZoom": 1,
+        "widenFactor": 0.01,
+        "socialImage": "",
+        "layers": [
+        {
+            "id": "advertising",
+            "name": {
+            "ca": "Completem dades de portals",
+            "es": "Completamos datos de portales"
+            },
+            "minzoom": 15,
+            "overpassTags": {
+            "or": [
+                "advertising~*"
+            ]
+            },
+            "title": {
+            "render": {
+                "ca": "Publicitat",
+                "es": "Publicidad"
+            },
+            "mappings": [
+                {
+                  "if": {
+                    "and": [
+                      "advertising=billboard"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Tanca publicitària",
+                    "es": "Valla publicitaria"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "advertising=board"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Tauló d'anunis",
+                    "es": "Tablon de anuncios"
+                  }
+                }
+            ]
+            },
+            "description": {
+            "ca": "Completarem les dades dels dispositius publicitaris amb referència, operador i il·luminació",
+            "es": "Completaremos los datos de los dispositivos publicitarios con referencia, operador y iluminació"
+            },
+            "tagRenderings": [
+            {
+                "render": {
+                "ca": "El número de referència és {ref}",
+                "es": "El número de referencia es {ref}"
+                },
+                "question": {
+                "ca": "Quin és el número de refèrencia?",
+                "es": "¿Cual es el número de referencia?"
+                },
+                "freeform": {
+                "key": "ref"
+                },
+                "mappings": []
+            },
+            {
+                "render": {
+                "ca": "L'operador és {operator}",
+                "es": "El operador es {operator}"
+                },
+                "question": {
+                "ca": "Qui opera aquest element?",
+                "es": "¿Quien opera este elemento?"
+                },
+                "freeform": {
+                "addExtraTags": [],
+                "key": "operator"
+                },
+                "mappings": []
+            },
+            {
+                "render": {
+                "ca": "Iluminat?{lit}",
+                "es": "Iluminado{lit}"
+                },
+                "question": {
+                "ca": "Està il·luminat?",
+                "es": "Está iluminado?"
+                },
+                "freeform": {
+                    "key": "lit"
+                  },
+                  "mappings": [
+                    {
+                      "if": {
+                        "and": [
+                          "lit=yes"
+                        ]
+                      },
+                      "then": {
+                        "ca": "Està il·luminat",
+                        "es": "Está iluminado"
+                      }
+                    },
+                    {
+                      "if": {
+                        "and": [
+                            "lit=no"
+                        ]
+                      },
+                      "then": {
+                        "ca": "No està il·luminat",
+                        "es": "No está iluminado"
+                      }
+                    }
+                ]
+            }
+            ],
+            "hideUnderlayingFeaturesMinPercentage": 0,
+            "icon": {
+            "render": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_plena.svg",
+            "mappings": [
+                {
+                "if": {
+                    "or": [
+                    "advertising=billboard"
+                    ]
+                },
+                "then": {
+                    "ca": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg",
+                    "es": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=board"
+                    ]
+                },
+                "then": {
+                    "ca": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg",
+                    "es": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=column"
+                    ]
+                },
+                "then": {
+                    "ca": "https://wiki.openstreetmap.org/w/images/e/e3/Column.svg",
+                    "es": "https://wiki.openstreetmap.org/w/images/e/e3/Column.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=flag"
+                    ]
+                },
+                "then": {
+                    "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
+                    "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=poster_box"
+                    ]
+                },
+                "then": {
+                    "ca": "https://wiki.openstreetmap.org/w/images/1/1f/Poster_box.svg",
+                    "es": "https://wiki.openstreetmap.org/w/images/1/1f/Poster_box.svg"
+                }
+                 },
+                 {
+                 "if": {
+                     "or": [
+                     "advertising=screen"
+                    ]
+                 },
+                 "then": {
+                    "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
+                    "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
+                 }
+                 },
+                 {
+                "if": {
+                    "or": [
+                    "advertising=sculpture"
+                    ]
+                },
+                "then": {
+                    "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
+                    "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=sign"
+                    ]
+                },
+                "then": {
+                    "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
+                    "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=tarp"
+                    ]
+                },
+                "then": {
+                    "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
+                    "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=totem"
+                    ]
+                },
+                "then": {
+                    "ca": "https://wiki.openstreetmap.org/w/images/2/23/Totem.svg",
+                    "es": "https://wiki.openstreetmap.org/w/images/2/23/Totem.svg"
+                }
+                },
+                {
+                "if": {
+                    "or": [
+                    "advertising=wall_painting"
+                    ]
+                },
+                "then": {
+                    "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
+                    "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
+                }
+                }             
+            ]
+            },
+            "width": {
+            "render": "8"
+            },
+            "iconSize": {
+            "render": "40,40,center"
+            },
+            "color": {
+            "render": "#00f"
+            },
+            "presets": [
+            {
+                "tags": [
+                "advertising=billboard"
+                ],
+                "title": {
+                "ca": "una tanca publicitària",
+                "es": "una valla publicitària"
+                },
+                "description": {
+                "ca": "Les tanques publicitàries normalment són de gran tamany i estan situades prop de les carreteres",
+                "es": "Las vallas publicitarias normalment son de gran tamanó y están situadas cerca de las carreteras"
+                }
+            },
+            {
+                "tags": [
+                "advertising=board"
+                ],
+                "title": {
+                "ca": "un tauló d'anunis",
+                "es": "un tablon de anuncios"
+                }
+            },
+            {
+                "tags": [
+                "advertising=column"
+                ],
+                "title": {
+                "ca": "una columna",
+                "es": "una columna"
+                }
+            },
+            {
+                "tags": [
+                "advertising=flag"
+                ],
+                "title": {
+                "ca": "una bandera",
+                "es": "una bandera"
+                }
+            },
+            {
+                "tags": [
+                "advertising=poster_box"
+                ],
+                "title": {
+                "ca": "un poster box",
+                "es": "un poster box"
+                }
+            },
+            {
+                "tags": [
+                "advertising=screen"
+                ],
+                "title": {
+                "ca": "una pantalla",
+                "es": "una pantalla"
+                }
+            },
+            {
+                "tags": [
+                "advertising=sculpture"
+                ],
+                "title": {
+                "ca": "una escultura",
+                "es": "una escultura"
+                }
+            },
+            {
+                "tags": [
+                "advertising=sign"
+                ],
+                "title": {
+                "ca": "un lletrer",
+                "es": "un lletrer"
+                }
+            },
+            {
+                "tags": [
+                "advertising=tarp"
+                ],
+                "title": {
+                "ca": "una lona",
+                "es": "una lona"
+                }
+            },
+            {
+                "tags": [
+                "advertising=totem"
+                ],
+                "title": {
+                "ca": "un tòtem",
+                "es": "un tótem"
+                }
+            },
+            {
+                "tags": [
+                "advertising=wall_painting"
+                ],
+                "title": {
+                "ca": "una pintura a la paret",
+                "es": "una pitura en la pared"
+                }
+            }
+            ],
+            "wayHandling": 1
+        }
+        ],
+        "roamingRenderings": []
+    }
