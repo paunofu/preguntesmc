@@ -1,5 +1,6 @@
     {
         "id": "advertising",
+        "credits": "Offsel",
         "title": {
         "ca": "Publicitat",
         "es": "Publicidad",
@@ -44,9 +45,7 @@
             },
             "title": {
             "render": {
-                "ca": "Publicitat",
-                "es": "Publicidad",
-                "en": "Advertising"
+                "*": "{advertising}"
             },
             "mappings": [
                 {
@@ -72,6 +71,18 @@
                     "es": "Tablon de anuncios",
                     "en": "Board"
                   }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=poster_box"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Mupi",
+                        "es": "Mupi",
+                        "en": "Poster Box"
+                    }
                 }
             ]
             },
