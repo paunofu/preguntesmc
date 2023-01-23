@@ -92,6 +92,7 @@
             "en": "We will complete data from advertising devices with reference, operator and lit"
             },
             "tagRenderings": [
+                "images",
             {
                 "render": {
                 "ca": "El número de referència és {ref}",
