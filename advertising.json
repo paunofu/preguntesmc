@@ -115,9 +115,9 @@
                             ]
                           },
                           "then": {
-                            "ca": "Tanca publicitària",
-                            "es": "Valla publicitaria",
-                            "en": "Billboard"
+                            "ca": "Açò és una Tanca publicitària",
+                            "es": "Esto es una Valla publicitaria",
+                            "en": "This is a Billboard"
                           }
                         },
                         {
@@ -127,9 +127,9 @@
                             ]
                           },
                           "then": {
-                            "ca": "Tauló d'anunis",
-                            "es": "Tablón de anuncios",
-                            "en": "Board"
+                            "ca": "Açò és un Tauló d'anunis",
+                            "es": "Esto es un Tablón de anuncios",
+                            "en": "This is a Board"
                           }
                         },
                         {
@@ -139,9 +139,9 @@
                             ]
                           },
                           "then": {
-                            "ca": "Columna",
-                            "es": "Columna",
-                            "en": "Column"
+                            "ca": "Açò és una Columna",
+                            "es": "Esto es una Columna",
+                            "en": "This is a Column"
                           }
                         },
                         {
@@ -151,8 +151,8 @@
                               ]
                             },
                             "then": {
-                              "ca": "Bandera",
-                              "es": "Bndera",
+                              "ca": "Açò és una Bandera",
+                              "es": "Esto es una Bndera",
                               "en": "Flag"
                             }
                           },
@@ -163,9 +163,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Mupi",
-                              "es": "Mupi",
-                              "en": "Poster Box"
+                              "ca": "Açò és un Mupi",
+                              "es": "Esto es un Mupi",
+                              "en": "This is a Poster Box"
                             }
                           },
                           {
@@ -175,9 +175,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Pantalla",
-                              "es": "Pantalla",
-                              "en": "Screen"
+                              "ca": "Açò és una Pantalla",
+                              "es": "Esto es una Pantalla",
+                              "en": "This is a Screen"
                             }
                           },
                           {
@@ -187,9 +187,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Esculptura",
-                              "es": "Escultura",
-                              "en": "Sculpture"
+                              "ca": "Açò és una Esculptura",
+                              "es": "Esto es una Escultura",
+                              "en": "This is a Sculpture"
                             }
                           },
                           {
@@ -199,9 +199,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Cartell",
-                              "es": "Cartel",
-                              "en": "Sign"
+                              "ca": "Açò és un Cartell",
+                              "es": "Esto es un Cartel",
+                              "en": "This is a Sign"
                             }
                           },
                           {
@@ -211,9 +211,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Lona",
-                              "es": "Lona",
-                              "en": "Tarp"
+                              "ca": "Açò és una Lona",
+                              "es": "Esto es una Lona",
+                              "en": "This is a Tarp"
                             }
                           },
                           {
@@ -223,9 +223,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Tòtem",
-                              "es": "Tótem",
-                              "en": "Totem"
+                              "ca": "Açò és un Tòtem",
+                              "es": "Esto es un Tótem",
+                              "en": "This is a Totem"
                             }
                           },
                           {
@@ -235,9 +235,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Paret pintada",
-                              "es": "Pared pintada",
-                              "en": "Wall Painting"
+                              "ca": "Açò és una Paret pintada",
+                              "es": "Esto es una Pared pintada",
+                              "en": "This is a Wall Painted"
                             }
                           }
                     ]
@@ -487,7 +487,8 @@
             },
             {
                 "tags": [
-                "advertising=flag"
+                "advertising=flag",
+                "man_made=pole"
                 ],
                 "title": {
                 "ca": "una bandera",
