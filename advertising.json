@@ -93,7 +93,156 @@
             },
             "tagRenderings": [
                 "images",
-            {
+                {
+                    "render": {
+                    "ca": "Açò és un {advertising}",
+                    "es": "Esto es un {advertising}",
+                    "en": "This is a {advertising}"
+                    },
+                    "question": {
+                    "ca": "Quin tipus d'element publicitari és aquest?",
+                    "es": "¿Qué tipo de elemento publicitario es?",
+                    "en": "Which type of advertising device is this?"
+                    },
+                    "freeform": {
+                        "key": "advertising"
+                      },
+                      "mappings": [
+                        {
+                          "if": {
+                            "and": [
+                              "advertising=billboard"
+                            ]
+                          },
+                          "then": {
+                            "ca": "Tanca publicitària",
+                            "es": "Valla publicitaria",
+                            "en": "Billboard"
+                          }
+                        },
+                        {
+                          "if": {
+                            "and": [
+                                "advertising=board"
+                            ]
+                          },
+                          "then": {
+                            "ca": "Tauló d'anunis",
+                            "es": "Tablón de anuncios",
+                            "en": "Board"
+                          }
+                        },
+                        {
+                          "if": {
+                            "and": [
+                                "advertising=column"
+                            ]
+                          },
+                          "then": {
+                            "ca": "Columna",
+                            "es": "Columna",
+                            "en": "Column"
+                          }
+                        },
+                        {
+                            "if": {
+                              "and": [
+                                  "advertising=flag"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Bandera",
+                              "es": "Bndera",
+                              "en": "Flag"
+                            }
+                          },
+                          {
+                            "if": {
+                              "and": [
+                                  "advertising=poster_box"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Mupi",
+                              "es": "Mupi",
+                              "en": "Poster Box"
+                            }
+                          },
+                          {
+                            "if": {
+                              "and": [
+                                  "advertising=screen"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Pantalla",
+                              "es": "Pantalla",
+                              "en": "Screen"
+                            }
+                          },
+                          {
+                            "if": {
+                              "and": [
+                                  "advertising=sculpture"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Esculptura",
+                              "es": "Escultura",
+                              "en": "Sculpture"
+                            }
+                          },
+                          {
+                            "if": {
+                              "and": [
+                                  "advertising=sign"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Cartell",
+                              "es": "Cartel",
+                              "en": "Sign"
+                            }
+                          },
+                          {
+                            "if": {
+                              "and": [
+                                  "advertising=tarp"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Lona",
+                              "es": "Lona",
+                              "en": "Tarp"
+                            }
+                          },
+                          {
+                            "if": {
+                              "and": [
+                                  "advertising=totem"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Tòtem",
+                              "es": "Tótem",
+                              "en": "Totem"
+                            }
+                          },
+                          {
+                            "if": {
+                              "and": [
+                                  "advertising=wall_painting"
+                              ]
+                            },
+                            "then": {
+                              "ca": "Paret pintada",
+                              "es": "Pared pintada",
+                              "en": "Wall Painting"
+                            }
+                          }
+                    ]
+                },
+                {
                 "render": {
                 "ca": "El número de referència és {ref}",
                 "es": "El número de referencia es {ref}",
@@ -324,7 +473,7 @@
                 ],
                 "title": {
                 "ca": "un tauló d'anunis",
-                "es": "un tablon de anuncios"
+                "es": "un tablón de anuncios"
                 }
             },
             {
