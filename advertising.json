@@ -83,6 +83,102 @@
                         "es": "Mupi",
                         "en": "Poster Box"
                     }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=column"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Columna",
+                        "es": "Columna",
+                        "en": "Column"
+                    }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=flag"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Bandera",
+                        "es": "Bandera",
+                        "en": "Flag"
+                    }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=screen"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Pantalla",
+                        "es": "Pantalla",
+                        "en": "Screen"
+                    }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=sculpture"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Esculptura",
+                        "es": "Escultura",
+                        "en": "Sculpture"
+                    }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=sign"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Cartell",
+                        "es": "Cartel",
+                        "en": "Sign"
+                    }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=tarp"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Lona",
+                        "es": "Lona",
+                        "en": "Tarp"
+                    }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=totem"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Tòtem",
+                        "es": "Tótem",
+                        "en": "Totem"
+                    }
+                },
+                {
+                    "if": {
+                        "and":[
+                            "advertising=wall_painting"
+                        ]
+                    },
+                    "then":{
+                        "ca": "Paret Pintada",
+                        "es": "Pared Pintada",
+                        "en": "Wall Painted"
+                    }
                 }
             ]
             },
