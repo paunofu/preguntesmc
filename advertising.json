@@ -458,9 +458,9 @@
                           ]
                         },
                         "then": {
-                          "ca": "",
-                          "es": "",
-                          "en": ""
+                          "ca": "Trivision",
+                          "es": "Trivision",
+                          "en": "Trivision"
                         }
                       },
                       {
@@ -470,9 +470,9 @@
                           ]
                         },
                         "then": {
-                          "ca": "",
-                          "es": "",
-                          "en": ""
+                          "ca": "Cartells <b>Rotatius</b>",
+                          "es": "Cartells <b>Rotatius</b>",
+                          "en": "<b>Scrolling</b> posters"
                         }
                       },
                       {
@@ -482,9 +482,9 @@
                           ]
                         },
                         "then": {
-                          "ca": "",
-                          "es": "",
-                          "en": ""
+                          "ca": "<b>Rota</b> sobre si mateix",
+                          "es": "<b>Rota</b> sobre si mismo",
+                          "en": "<b>Rotates</b> on itself"
                         }
                       },
                       {
