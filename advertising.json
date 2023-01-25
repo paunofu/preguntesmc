@@ -211,9 +211,9 @@
                             ]
                           },
                           "then": {
-                            "ca": "Açò és una Tanca publicitària",
-                            "es": "Esto es una Valla publicitaria",
-                            "en": "This is a Billboard"
+                            "ca": "Açò és una tanca publicitària",
+                            "es": "Esto es una valla publicitaria",
+                            "en": "This is a billboard"
                           }
                         },
                         {
@@ -223,9 +223,9 @@
                             ]
                           },
                           "then": {
-                            "ca": "Açò és un Tauló d'anunis",
-                            "es": "Esto es un Tablón de anuncios",
-                            "en": "This is a Board"
+                            "ca": "Açò és un tauló d'anunis",
+                            "es": "Esto es un tablón de anuncios",
+                            "en": "This is a board"
                           }
                         },
                         {
@@ -235,9 +235,9 @@
                             ]
                           },
                           "then": {
-                            "ca": "Açò és una Columna",
-                            "es": "Esto es una Columna",
-                            "en": "This is a Column"
+                            "ca": "Açò és una columna",
+                            "es": "Esto es una columna",
+                            "en": "This is a column"
                           }
                         },
                         {
@@ -247,9 +247,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és una Bandera",
-                              "es": "Esto es una Bndera",
-                              "en": "This is a Flag"
+                              "ca": "Açò és una bandera",
+                              "es": "Esto es una bndera",
+                              "en": "This is a flag"
                             }
                           },
                           {
@@ -259,9 +259,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és un Mupi",
-                              "es": "Esto es un Mupi",
-                              "en": "This is a Poster Box"
+                              "ca": "Açò és un mupi",
+                              "es": "Esto es un mupi",
+                              "en": "This is a poster Box"
                             }
                           },
                           {
@@ -271,9 +271,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és una Pantalla",
-                              "es": "Esto es una Pantalla",
-                              "en": "This is a Screen"
+                              "ca": "Açò és una pantalla",
+                              "es": "Esto es una pantalla",
+                              "en": "This is a screen"
                             }
                           },
                           {
@@ -283,9 +283,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és una Esculptura",
-                              "es": "Esto es una Escultura",
-                              "en": "This is a Sculpture"
+                              "ca": "Açò és una esculptura",
+                              "es": "Esto es una escultura",
+                              "en": "This is a sculpture"
                             }
                           },
                           {
@@ -295,9 +295,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és un Cartell",
-                              "es": "Esto es un Cartel",
-                              "en": "This is a Sign"
+                              "ca": "Açò és un cartell",
+                              "es": "Esto es un cartel",
+                              "en": "This is a sign"
                             }
                           },
                           {
@@ -307,9 +307,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és una Lona",
-                              "es": "Esto es una Lona",
-                              "en": "This is a Tarp"
+                              "ca": "Açò és una lona",
+                              "es": "Esto es una lona",
+                              "en": "This is a tarp"
                             }
                           },
                           {
@@ -319,9 +319,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és un Tòtem",
-                              "es": "Esto es un Tótem",
-                              "en": "This is a Totem"
+                              "ca": "Açò és un tòtem",
+                              "es": "Esto es un tótem",
+                              "en": "This is a totem"
                             }
                           },
                           {
@@ -331,9 +331,9 @@
                               ]
                             },
                             "then": {
-                              "ca": "Açò és una Paret pintada",
-                              "es": "Esto es una Pared pintada",
-                              "en": "This is a Wall Painted"
+                              "ca": "Açò és una paret pintada",
+                              "es": "Esto es una pared pintada",
+                              "en": "This is a wall Painted"
                             }
                           }
                     ]
@@ -709,8 +709,8 @@
                 "advertising=poster_box"
                 ],
                 "title": {
-                "ca": "un Mupi",
-                "es": "un Mupi"
+                "ca": "un mupi",
+                "es": "un mupi"
                 }
             },
             {
