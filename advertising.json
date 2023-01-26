@@ -651,7 +651,7 @@
       ],
       "hideUnderlayingFeaturesMinPercentage": 0,
       "icon": {
-      "render": "images/advertising_icon.svg",
+      "render": "advertising_icon.svg",
       "mappings": [
           {
           "if": {
@@ -660,7 +660,7 @@
               ]
           },
           "then": {
-              "ca": "./images/billboard_trunk.svg",
+              "ca": "billboard_trunk.svg",
               "es": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg"
           }
           },
@@ -671,7 +671,7 @@
               ]
           },
           "then": {
-              "ca": "images/Board.svg",
+              "ca": "Board.svg",
               "es": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg"
           }
           },
@@ -682,7 +682,7 @@
               ]
           },
           "then": {
-              "ca": "images/Column.svg",
+              "ca": "Column.svg",
               "es": "https://wiki.openstreetmap.org/w/images/e/e3/Column.svg"
           }
           },
@@ -704,7 +704,7 @@
               ]
           },
           "then": {
-              "ca": "images/Poster_box.svg",
+              "ca": "Poster_box.svg",
               "es": "https://wiki.openstreetmap.org/w/images/1/1f/Poster_box.svg"
           }
            },
@@ -759,7 +759,7 @@
               ]
           },
           "then": {
-              "ca": "images/Totem.svg",
+              "ca": "Totem.svg",
               "es": "https://wiki.openstreetmap.org/w/images/2/23/Totem.svg"
           }
           },
