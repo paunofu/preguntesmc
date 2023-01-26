@@ -782,5 +782,9 @@
       "wayHandling": 1
   }
   ],
-  "roamingRenderings": []
+  "roamingRenderings": [],
+  "allowMove": {
+    "enableImproveAccuracy": true,
+    "enableRelocation": false
+  }
 }
