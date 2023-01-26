@@ -537,7 +537,7 @@
               ]
           },
           "then": {
-              "ca": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg",
+              "ca": "./images/Billboard_trunk.svg",
               "es": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg"
           }
           },
@@ -548,7 +548,7 @@
               ]
           },
           "then": {
-              "ca": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg",
+              "ca": "./images/Board.svg",
               "es": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg"
           }
           },
