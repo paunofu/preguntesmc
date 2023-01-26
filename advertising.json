@@ -522,13 +522,138 @@
                     "es": "<b>Rota</b> sobre si mismo",
                     "en": "<b>Rotates</b> on itself"
                   }
-                }
+                },
+                {
+                  "render": {
+                  "ca": "Missatge {message}",
+                  "es": "Mensaje {message}",
+                  "en": "Message {message}"
+                  },
+                  "question": {
+                  "ca": "Quin tipus de missatge es mostra?",
+                  "es": "Que tipo de mensaje se muestra ?",
+                  "en": "What kind of message is shown?"
+                  },
+                  "freeform": {
+                      "key": "message"
+                    },
+                    "mappings": [
+                      {
+                        "if": {
+                          "and": [
+                            "message=commercial"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Missatge comercial",
+                          "es": "Mensaje comercial",
+                          "en": "Commercial message"
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                              "message=local"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Informació municipal",
+                          "es": "Información municipal",
+                          "en": "Local information"
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                            "message=safety"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Informació de seguretat",
+                          "es": "Información de seguridad",
+                          "en": "Securty information"
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                            "message=political"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Cartell electoral",
+                          "es": "Cartel electoral",
+                          "en": "Electoral sign"
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                            "message=showbiz"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Informació sobre teatres, concerts, ...",
+                          "es": "Información sobre teatros, conciertos, ...",
+                          "en": "Inormation related to theatre, concerts, ..."
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                            "message=non_profit"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Cartell d'organitzacions sense ànim de lucre",
+                          "es": "Cartel de organizaciones sin ánimo de lucro",
+                          "en": "Sign from non-profit organizations"
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                            "message=opinion"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Per a expressar la teua opinió",
+                          "es": "Para expresar tu opinión",
+                          "en": "To expres your opinion"
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                            "message=religion"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Missatge religiós",
+                          "es": "Mensaje religioso",
+                          "en": "Religious message"
+                        }
+                      },
+                      {
+                        "if": {
+                          "and": [
+                            "message=funding"
+                          ]
+                        },
+                        "then": {
+                          "ca": "Cartell de financiació",
+                          "es": "Cartel de financiación",
+                          "en": "Funding sign"
+                        }
+                      }
+                  ]
+              }
           ]
       }
       ],
       "hideUnderlayingFeaturesMinPercentage": 0,
       "icon": {
-      "render": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Advertising_icon.svg",
+      "render": "./images/Advertising_icon.svg",
       "mappings": [
           {
           "if": {
