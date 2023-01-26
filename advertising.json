@@ -522,12 +522,12 @@
                     "es": "<b>Rota</b> sobre si mismo",
                     "en": "<b>Rotates</b> on itself"
                   }
-                },
-                {
+                }
+            ]
+        },
+        {
                   "render": {
-                  "ca": "Missatge {message}",
-                  "es": "Mensaje {message}",
-                  "en": "Message {message}"
+                  "*": " {message}"
                   },
                   "question": {
                   "ca": "Quin tipus de missatge es mostra?",
@@ -648,8 +648,6 @@
                       }
                   ]
               }
-          ]
-      }
       ],
       "hideUnderlayingFeaturesMinPercentage": 0,
       "icon": {
