@@ -682,7 +682,7 @@
               ]
           },
           "then": {
-              "ca": "Column.svg",
+              "ca": "./Column.svg",
               "es": "https://wiki.openstreetmap.org/w/images/e/e3/Column.svg"
           }
           },
@@ -704,7 +704,7 @@
               ]
           },
           "then": {
-              "ca": "Poster_box.svg",
+              "ca": "./Poster_box.svg",
               "es": "https://wiki.openstreetmap.org/w/images/1/1f/Poster_box.svg"
           }
            },
@@ -759,7 +759,7 @@
               ]
           },
           "then": {
-              "ca": "Totem.svg",
+              "ca": "./Totem.svg",
               "es": "https://wiki.openstreetmap.org/w/images/2/23/Totem.svg"
           }
           },
