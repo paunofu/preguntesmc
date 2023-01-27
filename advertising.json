@@ -651,7 +651,7 @@
       ],
       "hideUnderlayingFeaturesMinPercentage": 0,
       "icon": {
-      "render": "./advertising_icon.svg",
+      "render": "./preguntesmc/advertising_icon.svg",
       "mappings": [
           {
           "if": {
@@ -671,7 +671,7 @@
               ]
           },
           "then": {
-              "ca": "./Board.svg",
+              "ca": "./preguntesmc/Board.svg",
               "es": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg"
           }
           },
