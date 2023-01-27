@@ -660,7 +660,7 @@
               ]
           },
           "then": {
-              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/billboard_trunk.svg",
+              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Billboard.svg",
               "es": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg"
           }
           },
