@@ -651,7 +651,7 @@
       ],
       "hideUnderlayingFeaturesMinPercentage": 0,
       "icon": {
-      "render": "./preguntesmc/advertising_icon.svg",
+      "render": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Advertising_icon.svg",
       "mappings": [
           {
           "if": {
@@ -660,7 +660,7 @@
               ]
           },
           "then": {
-              "ca": "./billboard_trunk.svg",
+              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/billboard_trunk.svg",
               "es": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg"
           }
           },
@@ -671,7 +671,7 @@
               ]
           },
           "then": {
-              "ca": "./preguntesmc/Board.svg",
+              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Board.svg",
               "es": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg"
           }
           },
@@ -682,7 +682,7 @@
               ]
           },
           "then": {
-              "ca": "./Column.svg",
+              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Column.svg",
               "es": "https://wiki.openstreetmap.org/w/images/e/e3/Column.svg"
           }
           },
@@ -704,7 +704,7 @@
               ]
           },
           "then": {
-              "ca": "./Poster_box.svg",
+              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Poster_box.svg",
               "es": "https://wiki.openstreetmap.org/w/images/1/1f/Poster_box.svg"
           }
            },
@@ -759,7 +759,7 @@
               ]
           },
           "then": {
-              "ca": "./Totem.svg",
+              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Totem.svg",
               "es": "https://wiki.openstreetmap.org/w/images/2/23/Totem.svg"
           }
           },
