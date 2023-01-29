@@ -214,6 +214,10 @@
                       "ca": "Açò és una tanca publicitària",
                       "es": "Esto es una valla publicitaria",
                       "en": "This is a billboard"
+                    },
+                    "icon": {
+                      "path": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Billboard.svg",
+                      "class": "medium"
                     }
                   },
                   {
