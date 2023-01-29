@@ -645,25 +645,25 @@
                           "es": "Cartel de financiación",
                           "en": "Funding sign"
                         }
-                      },
-                      {
-                        "render": {
-                        "ca": "Pots veure publicitat per {sides} costats",
-                        "es": "Puedes ver publicidad por {sides} lados",
-                        "en": "You can see adverstismetns from {sides} sides"
-                        },
-                        "question": {
-                        "ca": "Per quants costats pots veure publicitat?",
-                        "es": "¿Por cuantos lados puedes ver publicidad?",
-                        "en": "From how many sides you can watch advertisments?"
-                        },
-                        "freeform": {
-                        "key": "sides"
-                        },
-                        "mappings": []
-                    }
+                      }
                   ]
-              }
+              },
+              {
+                "render": {
+                "ca": "Pots veure publicitat per {sides} costats",
+                "es": "Puedes ver publicidad por {sides} lados",
+                "en": "You can see adverstismetns from {sides} sides"
+                },
+                "question": {
+                "ca": "Per quants costats pots veure publicitat?",
+                "es": "¿Por cuantos lados puedes ver publicidad?",
+                "en": "From how many sides you can watch advertisments?"
+                },
+                "freeform": {
+                "key": "sides"
+                },
+                "mappings": []
+            }
       ],
       "hideUnderlayingFeaturesMinPercentage": 0,
       "icon": {
@@ -687,7 +687,7 @@
               ]
           },
           "then": {
-              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Board.svg",
+              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Board_free.svg",
               "es": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg"
           }
           },
