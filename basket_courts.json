@@ -206,13 +206,13 @@
             },
             {
             "render": {
-            "ca": "{operator} és el responsable d'aquestes pistes",
-            "es": "{operator} es el responsable de estas pistas",
-            "en": "{operator} operates this pitch"
+            "ca": "La pista té {hoops} cistelles",
+            "es": "La pista tiene {hoops} canastas",
+            "en": "This pitch has {hoops} hoops"
             },
             "question": {
             "ca": "Quantes cistelles té la pista?",              
-            "es": "¿Cuantos aros tiene la pista?",
+            "es": "Cuantas canastas tiene la pista?",
             "en": "How many hoops has the pitch?"
             },
             "freeform": {
