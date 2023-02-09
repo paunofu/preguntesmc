@@ -211,6 +211,22 @@
             "en": "{operator} operates this pitch"
             },
             "question": {
+            "ca": "Quantes cistelles té la pista?",              
+            "es": "¿Cuantos aros tiene la pista?",
+            "en": "How many hoops has the pitch?"
+            },
+            "freeform": {
+            "key": "hoops"
+            },
+            "mappings": []
+            }, 
+            {
+            "render": {
+            "ca": "{operator} és el responsable d'aquestes pistes",
+            "es": "{operator} es el responsable de estas pistas",
+            "en": "{operator} operates this pitch"
+            },
+            "question": {
             "ca": "Quin és el responsable d'aquestes pistes?",
             "es": "¿Cual es el responsable de estas pistas?",
             "en": "Who operates this pitch?"
