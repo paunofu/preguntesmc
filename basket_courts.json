@@ -1,0 +1,213 @@
+{
+    "id": "basket_pitch",
+    "credits": "Offsel",
+    "title": {
+    "ca": "Camps de bàsquet",
+    "es": "Campo de baloncesto",
+    "en": "Basketball pitches"
+    },
+    "shortDescription": {
+    "ca": "On puc trobar camps de bàquest? I el seu estat?",
+    "es": "Dónde puedo encontrar campos de baloncesto? Y su estado?",
+    "en": "Where I can find basketball pitches? And theri status?"
+    },
+    "description": {
+        "ca":"a"
+    },
+    "language": [
+    "ca",
+    "es",
+    "en"
+    ],
+    "maintainer": "Offsel",
+    "icon": "",
+    "version": "2023_02_08",
+    "startLat": 0,
+    "startLon": 0,
+    "startZoom": 1,
+    "widenFactor": 0.01,
+    "socialImage": "",
+    "layers": [
+    {
+        "id": "basket_pitch",
+        "name": {
+        "ca": "Camps de bàsquet",
+        "es": "Camps de bàsquet",
+        "en": "Camps de bàsquet"
+        },
+        "minzoom": 15,
+        "overpassTags": {
+        "or": [
+            "sport~basketball",
+            "sport~basket"
+        ]
+        },
+        "title": {
+        "render": {
+            "en": "Basketball pitch",
+            "ca": "Camp de bàquet",
+            "es": "Pista de baloncesto"
+        }
+        
+        },
+        "description": {
+        "ca": "Un camp de bàsquet",
+        "es": "Un campo de baloncesto",
+        "en": "A basketball pitch"
+        },
+        "tagRenderings": [
+            "images",
+            {
+                "render": {
+                "ca": "Iluminat {lit}",
+                "es": "Iluminado {lit}",
+                "en": "Lit {lit}"
+                },
+                "question": {
+                "ca": "El camp de bàsquet està il·luminat?",
+                "es": "El campo de baloncesto está iluminado?",
+                "en": "Is basketball pitch lit?"
+                },
+                "freeform": {
+                    "key": "lit"
+                  },
+                  "mappings": [
+                    {
+                      "if": {
+                        "and": [
+                          "lit=yes"
+                        ]
+                      },
+                      "then": {
+                        "ca": "El camp de bàsquet està il·luminat",
+                        "es": "El campo de baloncesto está iluminado",
+                        "en": "Basketball pitch is lit"
+                      }
+                    },
+                    {
+                      "if": {
+                        "and": [
+                            "lit=no"
+                        ]
+                      },
+                      "then": {
+                        "ca": "El camp de bàsquet no està il·luminat",
+                        "es": "El campo de baloncesto no está iluminado",
+                        "en": "Basketball pitch is not lit"
+                      }
+                    }
+                ]
+            },
+            {
+                "question": {
+                  "en": "Which is the surface of this basketball pitch?",
+                  "es": "¿Cual es la superficie de esta pista de baloncesto?",
+                  "ca": "Quina és la superficíes d'aquesta pista de bàsquet?"
+                },
+                "render": {
+                  "en": "The surface is <b>{surface}</b>",
+                  "es": "La superficie es <b>{surface}</b>",
+                  "ca": "La superfície és <b>{surface}</b>"
+                },
+                "freeform": {
+                  "key": "surface"
+                },
+                "mappings": [
+                  {
+                    "if": "surface=grass",
+                    "then": {
+                      "en": "The surface is <b>grass</b>",
+                      "es": "La superficie es <b>hierba</b>",
+                      "ca": "La superfície és <b>herba</b>"
+                    }
+                  },
+                  {
+                    "if": "surface=tartan",
+                    "then": {
+                      "en": "The surface is <b>tartan</b>",
+                      "es": "La superficie es <b>tartán</b>",
+                      "ca": "La superfície és <b>tartà</b>"
+                    }
+                  },
+                  {
+                    "if": "surface=paving_stones",
+                    "then": {
+                      "en": "The surface is <b>paving stones</b>",
+                      "es": "La superficie es <b>adoquines</b>",
+                      "ca": "La superfície són <b>llambordes</b>"
+                    }
+                  },
+                  {
+                    "if": "surface=asphalt",
+                    "then": {
+                      "en": "The surface is <b>asphalt</b>",
+                      "es": "La superficie es <b>asfalto</b>",
+                      "ca": "La superfície és <b>asfalt</b>"
+                    }
+                  },
+                  {
+                    "if": "surface=concrete",
+                    "then": {
+                      "en": "The surface is <b>concrete</b>",
+                      "es": "La superficie es <b>hormigón</b>",
+                      "ca": "La superfície és <b>formigó</b>"
+                    }
+                  },
+                  {
+                    "if": "surface=parquet",
+                    "then": {
+                      "en": "The surface is <b>parquet</b>",
+                      "es": "La superficie es <b>parquet</b>",
+                      "ca": "La superfície és <b>parquet</b>"
+                    }
+                  }
+                ]
+            },
+            {
+            "render": {
+            "ca": "{operator} és el responsable d'aquestes pistes",
+            "es": "{operator} es el responsable de estas pistas",
+            "en": "{operator} operates this pitch"
+            },
+            "question": {
+            "ca": "Quin és el responsable d'aquestes pistes?",
+            "es": "¿Cual es el responsable de estas pistas?",
+            "en": "Who operates this pitch?"
+            },
+            "freeform": {
+            "key": "operator"
+            },
+            "mappings": []
+            }
+        ],
+        "hideUnderlayingFeaturesMinPercentage": 0,
+        "icon": {
+        "render": "circle:white;https://raw.githubusercontent.com/pietervdvn/MapComplete/develop/assets/layers/sport_pitch/basketball.svg"
+        },
+        "width": {
+        "render": "8"
+        },
+        "iconSize": {
+        "render": "40,40,center"
+        },
+        "color": {
+        "render": "#00f"
+        },
+        "presets": [
+        {
+            "tags": [
+            "sport=basketball",
+            "fixme=Aquest element s'ha afegit amb MapComplete, cal millorar la geometria"
+            ],
+            "title": {
+            "ca": "un camp de bàsquet",
+            "es": "un campo de baloncesto",
+            "en": "A basketball pitch"
+            }
+        }
+        ],
+        "wayHandling": 1
+    }
+    ],
+    "roamingRenderings": []
+  }
