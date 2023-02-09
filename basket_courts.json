@@ -175,7 +175,7 @@
                 "ca": "L'estat de la superfície és <b>{surface:condition}</b>"
               },
               "freeform": {
-                "key": "surface"
+                "key": "surface:condition"
               },
               "mappings": [
                 {
