@@ -227,8 +227,8 @@
             "en": "{operator} operates this pitch"
             },
             "question": {
-            "ca": "Quin és el responsable d'aquestes pistes?",
-            "es": "¿Cual es el responsable de estas pistas?",
+            "ca": "Qui és el responsable d'aquestes pistes?",
+            "es": "¿Quien es el responsable de estas pistas?",
             "en": "Who operates this pitch?"
             },
             "freeform": {
