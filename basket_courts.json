@@ -164,6 +164,47 @@
                 ]
             },
             {
+              "question": {
+                "en": "Which is the surface condition of this basketball pitch?",
+                "es": "Cual es el estado de la superficie de esta pista de baloncesto?",
+                "ca": "Quin és l'estat de la superficíes d'aquesta pista de bàsquet?"
+              },
+              "render": {
+                "en": "The surface condition is <b>{surface:condition}</b>",
+                "es": "El estado de la superficie es <b>{surface:condition}</b>",
+                "ca": "L'estat de la superfície és <b>{surface:condition}</b>"
+              },
+              "freeform": {
+                "key": "surface"
+              },
+              "mappings": [
+                {
+                  "if": "surface:condition=maintained",
+                  "then": {
+                    "en": "The surface is <b>maintained</b>",
+                    "es": "La superficie está <b>mantenida</b>",
+                    "ca": "La superfície està <b>mantesa</b>"
+                  }
+                },
+                {
+                  "if": "surface:condition=uneven",
+                  "then": {
+                    "en": "The surface is <b>uneven</b>",
+                    "es": "La superficie es <b>irregular</b>",
+                    "ca": "La superfície és <b>irregular</b>"
+                  }
+                },
+                {
+                  "if": "surface:condition=degraded",
+                  "then": {
+                    "en": "The surface is <b>degraded</b>",
+                    "es": "La superficie está <b>degradada</b>",
+                    "ca": "La superfície està <b>degradada</b>"
+                  }
+                }
+              ]
+            },
+            {
             "render": {
             "ca": "{operator} és el responsable d'aquestes pistes",
             "es": "{operator} es el responsable de estas pistas",
