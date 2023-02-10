@@ -306,13 +306,13 @@
             }, 
             {
             "render": {
-            "ca": "{operator} és el responsable d'aquestes pistes",
-            "es": "{operator} es el responsable de estas pistas",
+            "ca": "{operator} és el responsable d'aquesta pista",
+            "es": "{operator} es el responsable de esta pista",
             "en": "{operator} operates this pitch"
             },
             "question": {
-            "ca": "Qui és el responsable d'aquestes pistes?",
-            "es": "¿Quien es el responsable de estas pistas?",
+            "ca": "Qui és el responsable d'aquesta pista?",
+            "es": "¿Quien es el responsable de esta pista?",
             "en": "Who operates this pitch?"
             },
             "freeform": {
