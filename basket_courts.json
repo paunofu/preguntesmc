@@ -12,7 +12,9 @@
     "en": "Where I can find basketball pitches? And theri status?"
     },
     "description": {
-        "ca":"a"
+        "ca": "Troba pistes de bàsquet i completa la seua informació com ara si estan iluminades o no, el seu estat o quantes cistelles té entre altes coses",
+        "es": "Encuentra pistas de baloncesto y completa su iformación como si están iluminadas o no, su estado o cuantas canastas tiene entre otras cosas",
+        "en": "Find basketball courts and complete their information like if they are illuminated or not, their status or how many hoops they have"
     },
     "language": [
     "ca",
@@ -57,6 +59,88 @@
         },
         "tagRenderings": [
             "images",
+            {
+              "render": {
+                "en": "{sport} is played here",
+                "es": "Aquí se juega al {sport}"
+              },
+              "freeform": {
+                "key": "sport"
+              },
+              "question": {
+                "en": "Which sport can be played here?",
+                "es": "¿Qué deporte se practica aquí?"
+              },
+              "multiAnswer": true,
+              "mappings": [
+                {
+                  "if": {
+                    "and": [
+                      "sport=basketball"
+                    ]
+                  },
+                  "then": {
+                    "en": "Basketball is played here",
+                    "es": "Aquí se juega al baloncesto"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "sport=soccer"
+                    ]
+                  },
+                  "then": {
+                    "en": "Soccer is played here",
+                    "es": "Aquí se juega al fútbol"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "sport=table_tennis"
+                    ]
+                  },
+                  "then": {
+                    "en": "This is a pingpong table",
+                    "es": "Esto es una mesa de ping pong"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "sport=tennis"
+                    ]
+                  },
+                  "then": {
+                    "en": "Tennis is played here",
+                    "es": "Aquí se juega al tenis"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "sport=korfball"
+                    ]
+                  },
+                  "then": {
+                    "en": "Korfball is played here"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "sport=basket"
+                    ]
+                  },
+                  "then": {
+                    "en": "Basketball is played here",
+                    "es": "Aquí se juega al baloncesto"
+                  },
+                  "hideInAnswer": true
+                }
+              ]
+            },
             {
                 "render": {
                 "ca": "Iluminat {lit}",
