@@ -459,8 +459,8 @@
             "en": "Animated with {animated}"
           },
           "question": {
-            "ca": "Aquest element canvia automàticaent d'anuncis?",
-            "es": "¿Este elemento canvia automáticamente de anuncios?",
+            "ca": "Com canvia els anuncis aquest element?",
+            "es": "¿Como cambia los anuncios este elemento?",
             "en": "Does this feature cycle through multiple advertisements automatically?"
           },
           "freeform": {
