@@ -16,38 +16,31 @@
   "es": "¿Alguna vez te has preguntado cuanta publicidad hay en nuestras calles y carreteras? Con este mapa podrás encontrar y añadir información de todos los elementos publicitarios que te encuentres por la calle",
   "en": "Have you ever wondered how many advertising there are in our streets and roads? With this map you could find and add information about all the advertising features that you can find on the street"
   },
-  "language": [
-  "ca",
-  "es",
-  "en"
-  ],
   "maintainer": "Offsel",
-  "icon": "",
-  "version": "2023_01_27",
+  "icon": "./assets/themes/advertising/icon.svg",
+  "version": "2023_01_29",
   "startLat": 0,
   "startLon": 0,
   "startZoom": 1,
   "widenFactor": 0.01,
   "socialImage": "",
   "layers": [
-  {
+    {
       "id": "advertising",
       "name": {
-      "ca": "Publicitat",
-      "es": "Publicidad",
-      "en": "Advertise"
+        "ca": "Publicitat",
+        "es": "Publicidad",
+        "en": "Advertise"
       },
       "minzoom": 15,
-      "overpassTags": {
-      "or": [
-          "advertising~*"
-      ]
+      "source": {
+        "osmTags": "advertising~*"
       },
       "title": {
-      "render": {
+        "render": {
           "*": "{advertising}"
-      },
-      "mappings": [
+        },
+        "mappings": [
           {
             "if": {
               "and": [
@@ -73,857 +66,837 @@
             }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=poster_box"
-                  ]
-              },
-              "then":{
-                  "ca": "Mupi",
-                  "es": "Mupi",
-                  "en": "Poster Box"
-              }
+            "if": {
+              "and": [
+                "advertising=poster_box"
+              ]
+            },
+            "then": {
+              "ca": "Mupi",
+              "es": "Mupi",
+              "en": "Poster Box"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=column"
-                  ]
-              },
-              "then":{
-                  "ca": "Columna",
-                  "es": "Columna",
-                  "en": "Column"
-              }
+            "if": {
+              "and": [
+                "advertising=column"
+              ]
+            },
+            "then": {
+              "ca": "Columna",
+              "es": "Columna",
+              "en": "Column"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=flag"
-                  ]
-              },
-              "then":{
-                  "ca": "Bandera",
-                  "es": "Bandera",
-                  "en": "Flag"
-              }
+            "if": {
+              "and": [
+                "advertising=flag"
+              ]
+            },
+            "then": {
+              "ca": "Bandera",
+              "es": "Bandera",
+              "en": "Flag"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=screen"
-                  ]
-              },
-              "then":{
-                  "ca": "Pantalla",
-                  "es": "Pantalla",
-                  "en": "Screen"
-              }
+            "if": {
+              "and": [
+                "advertising=screen"
+              ]
+            },
+            "then": {
+              "ca": "Pantalla",
+              "es": "Pantalla",
+              "en": "Screen"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=sculpture"
-                  ]
-              },
-              "then":{
-                  "ca": "Esculptura",
-                  "es": "Escultura",
-                  "en": "Sculpture"
-              }
+            "if": {
+              "and": [
+                "advertising=sculpture"
+              ]
+            },
+            "then": {
+              "ca": "Esculptura",
+              "es": "Escultura",
+              "en": "Sculpture"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=sign"
-                  ]
-              },
-              "then":{
-                  "ca": "Cartell",
-                  "es": "Cartel",
-                  "en": "Sign"
-              }
+            "if": {
+              "and": [
+                "advertising=sign"
+              ]
+            },
+            "then": {
+              "ca": "Cartell",
+              "es": "Cartel",
+              "en": "Sign"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=tarp"
-                  ]
-              },
-              "then":{
-                  "ca": "Lona",
-                  "es": "Lona",
-                  "en": "Tarp"
-              }
+            "if": {
+              "and": [
+                "advertising=tarp"
+              ]
+            },
+            "then": {
+              "ca": "Lona",
+              "es": "Lona",
+              "en": "Tarp"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=totem"
-                  ]
-              },
-              "then":{
-                  "ca": "Tòtem",
-                  "es": "Tótem",
-                  "en": "Totem"
-              }
+            "if": {
+              "and": [
+                "advertising=totem"
+              ]
+            },
+            "then": {
+              "ca": "Tòtem",
+              "es": "Tótem",
+              "en": "Totem"
+            }
           },
           {
-              "if": {
-                  "and":[
-                      "advertising=wall_painting"
-                  ]
-              },
-              "then":{
-                  "ca": "Paret Pintada",
-                  "es": "Pared Pintada",
-                  "en": "Wall Painted"
-              }
+            "if": {
+              "and": [
+                "advertising=wall_painting"
+              ]
+            },
+            "then": {
+              "ca": "Paret Pintada",
+              "es": "Pared Pintada",
+              "en": "Wall Painted"
+            }
           }
-      ]
+        ]
       },
       "description": {
-      "ca": "Completarem les dades dels elements publicitaris amb referència, operador i il·luminació",
-      "es": "Completaremos los datos de los elementos publicitarios con referencia, operador y iluminación",
-      "en": "We will complete data from advertising features with reference, operator and lit"
+        "ca": "Completarem les dades dels elements publicitaris amb referència, operador i il·luminació",
+        "es": "Completaremos los datos de los elementos publicitarios con referencia, operador y iluminación",
+        "en": "We will complete data from advertising features with reference, operator and lit"
       },
       "tagRenderings": [
-          "images",
-          {
-              "render": {
-              "ca": "Açò és un {advertising}",
-              "es": "Esto es un {advertising}",
-              "en": "This is a {advertising}"
-              },
-              "question": {
-              "ca": "Quin tipus d'element publicitari és aquest?",
-              "es": "¿Qué tipo de elemento publicitario es?",
-              "en": "Which type of advertising feature is this?"
-              },
-              "freeform": {
-                  "key": "advertising"
-                },
-                "mappings": [
-                  {
-                    "if": {
-                      "and": [
-                        "advertising=billboard"
-                      ]
-                    },
-                    "then": {
-                      "ca": "Açò és una tanca publicitària",
-                      "es": "Esto es una valla publicitaria",
-                      "en": "This is a billboard"
-                    },
-                    "icon": {
-                      "path": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Billboard.svg",
-                      "class": "medium"
-                    }
-                  },
-                  {
-                    "if": {
-                      "and": [
-                          "advertising=board"
-                      ]
-                    },
-                    "then": {
-                      "ca": "Açò és un tauló d'anunis",
-                      "es": "Esto es un tablón de anuncios",
-                      "en": "This is a board"
-                    }
-                  },
-                  {
-                    "if": {
-                      "and": [
-                          "advertising=column"
-                      ]
-                    },
-                    "then": {
-                      "ca": "Açò és una columna",
-                      "es": "Esto es una columna",
-                      "en": "This is a column"
-                    }
-                  },
-                  {
-                      "if": {
-                        "and": [
-                            "advertising=flag"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és una bandera",
-                        "es": "Esto es una bndera",
-                        "en": "This is a flag"
-                      }
-                    },
-                    {
-                      "if": {
-                        "and": [
-                            "advertising=poster_box"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és un mupi",
-                        "es": "Esto es un mupi",
-                        "en": "This is a poster Box"
-                      }
-                    },
-                    {
-                      "if": {
-                        "and": [
-                            "advertising=screen"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és una pantalla",
-                        "es": "Esto es una pantalla",
-                        "en": "This is a screen"
-                      }
-                    },
-                    {
-                      "if": {
-                        "and": [
-                            "advertising=sculpture"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és una esculptura",
-                        "es": "Esto es una escultura",
-                        "en": "This is a sculpture"
-                      }
-                    },
-                    {
-                      "if": {
-                        "and": [
-                            "advertising=sign"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és un cartell",
-                        "es": "Esto es un cartel",
-                        "en": "This is a sign"
-                      }
-                    },
-                    {
-                      "if": {
-                        "and": [
-                            "advertising=tarp"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és una lona",
-                        "es": "Esto es una lona",
-                        "en": "This is a tarp"
-                      }
-                    },
-                    {
-                      "if": {
-                        "and": [
-                            "advertising=totem"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és un tòtem",
-                        "es": "Esto es un tótem",
-                        "en": "This is a totem"
-                      }
-                    },
-                    {
-                      "if": {
-                        "and": [
-                            "advertising=wall_painting"
-                        ]
-                      },
-                      "then": {
-                        "ca": "Açò és una paret pintada",
-                        "es": "Esto es una pared pintada",
-                        "en": "This is a wall painted"
-                      }
-                    }
-              ]
-          },
-          {
+        "images",
+        {
+          "id": "type",
           "render": {
-          "ca": "El número de referència és {ref}",
-          "es": "El número de referencia es {ref}",
-          "en": "Reference number is {ref}"
+            "ca": "Açò és un {advertising}",
+            "es": "Esto es un {advertising}",
+            "en": "This is a {advertising}"
           },
           "question": {
-          "ca": "Quin és el número de refèrencia?",
-          "es": "¿Cual es el número de referencia?",
-          "en": "Wich is the reference number?"
+            "ca": "Quin tipus d'element publicitari és aquest?",
+            "es": "¿Qué tipo de elemento publicitario es?",
+            "en": "Which type of advertising feature is this?"
           },
           "freeform": {
-          "key": "ref"
+            "key": "advertising"
           },
-          "mappings": []
-      },
-      {
-          "render": {
-          "ca": "L'operador és {operator}",
-          "es": "El operador es {operator}",
-          "en": "Operated by {operator}"
-          },
-          "question": {
-          "ca": "Qui opera aquest element?",
-          "es": "¿Quien opera este elemento?",
-          "en": "Who operates this feature?"
-          },
-          "freeform": {
-          "addExtraTags": [],
-          "key": "operator"
-          },
-          "mappings": []
-      },
-      {
-          "render": {
-          "ca": "Iluminat {lit}",
-          "es": "Iluminado {lit}",
-          "en": "Lit {lit}"
-          },
-          "question": {
-          "ca": "Aquest element està il·luminat?",
-          "es": "Este elemento está iluminado?",
-          "en": "This feature is lit?"
-          },
-          "freeform": {
-              "key": "lit"
-            },
-            "mappings": [
-              {
-                "if": {
-                  "and": [
-                    "lit=yes"
-                  ]
-                },
-                "then": {
-                  "ca": "Aquest element està il·luminat",
-                  "es": "Este elemento está iluminado",
-                  "en": "This feature is lit"
-                }
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "advertising=billboard"
+                ]
               },
-              {
-                "if": {
-                  "and": [
-                      "lit=no"
-                  ]
-                },
-                "then": {
-                  "ca": "Aqust element no està il·luminat",
-                  "es": "Este elemento no está iluminado",
-                  "en": "This feature is not lit"
-                }
+              "then": {
+                "ca": "Açò és una tanca publicitària",
+                "es": "Esto es una valla publicitaria",
+                "en": "This is a billboard"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/billboard.svg",
+                "class": "medium"
               }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=board"
+                ]
+              },
+              "then": {
+                "ca": "Açò és un tauló d'anunis",
+                "es": "Esto es un tablón de anuncios",
+                "en": "This is a board"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/board.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=column"
+                ]
+              },
+              "then": {
+                "ca": "Açò és una columna",
+                "es": "Esto es una columna",
+                "en": "This is a column"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/column.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=flag"
+                ]
+              },
+              "then": {
+                "ca": "Açò és una bandera",
+                "es": "Esto es una bndera",
+                "en": "This is a flag"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/icon.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=poster_box"
+                ]
+              },
+              "then": {
+                "ca": "Açò és un mupi",
+                "es": "Esto es un mupi",
+                "en": "This is a poster Box"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/poster_box.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=screen"
+                ]
+              },
+              "then": {
+                "ca": "Açò és una pantalla",
+                "es": "Esto es una pantalla",
+                "en": "This is a screen"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/icon.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=sculpture"
+                ]
+              },
+              "then": {
+                "ca": "Açò és una esculptura",
+                "es": "Esto es una escultura",
+                "en": "This is a sculpture"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/icon.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=sign"
+                ]
+              },
+              "then": {
+                "ca": "Açò és un cartell",
+                "es": "Esto es un cartel",
+                "en": "This is a sign"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/icon.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=tarp"
+                ]
+              },
+              "then": {
+                "ca": "Açò és una lona",
+                "es": "Esto es una lona",
+                "en": "This is a tarp"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/icon.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=totem"
+                ]
+              },
+              "then": {
+                "ca": "Açò és un tòtem",
+                "es": "Esto es un tótem",
+                "en": "This is a totem"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/totem.svg",
+                "class": "medium"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "advertising=wall_painting"
+                ]
+              },
+              "then": {
+                "ca": "Açò és una paret pintada",
+                "es": "Esto es una pared pintada",
+                "en": "This is a wall painted"
+              },
+              "icon": {
+                "path": "./assets/themes/advertising/icon.svg",
+                "class": "medium"
+              }
+            }
           ]
-      },
-      {
+        },
+        {
+          "id": "ref",
           "render": {
-          "ca": " Animat amb {animated}",
-          "es": "Animado con {animated}",
-          "en": "Animated with {animated}"
+            "ca": "El número de referència és {ref}",
+            "es": "El número de referencia es {ref}",
+            "en": "Reference number is {ref}"
           },
           "question": {
-          "ca": "Quin tipus d'animació té aquest element?",
-          "es": "Que tipo de animació tiene este elemento?",
-          "en": "Wich type of animation has this feature?"
+            "ca": "Quin és el número de refèrencia?",
+            "es": "¿Cual es el número de referencia?",
+            "en": "Wich is the reference number?"
           },
           "freeform": {
-              "key": "animated"
+            "key": "ref"
+          }
+        },
+        {
+          "id": "operator",
+          "render": {
+            "ca": "L'operador és {operator}",
+            "es": "El operador es {operator}",
+            "en": "Operated by {operator}"
+          },
+          "question": {
+            "ca": "Qui opera aquest element?",
+            "es": "¿Quien opera este elemento?",
+            "en": "Who operates this feature?"
+          },
+          "freeform": {
+            "addExtraTags": [],
+            "key": "operator"
+          }
+        },
+        {
+          "id": "lit",
+          "render": {
+            "ca": "Iluminat {lit}",
+            "es": "Iluminado {lit}",
+            "en": "Lit {lit}"
+          },
+          "question": {
+            "ca": "Aquest element està il·luminat?",
+            "es": "Este elemento está iluminado?",
+            "en": "This feature is lit?"
+          },
+          "freeform": {
+            "key": "lit"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "lit=yes"
+                ]
+              },
+              "then": {
+                "ca": "Aquest element està il·luminat",
+                "es": "Este elemento está iluminado",
+                "en": "This feature is lit"
+              }
             },
-            "mappings": [
-              {
-                "if": {
-                  "and": [
-                      "animated=no"
-                  ]
-                },
-                "then": {
-                  "ca": "<b>Estàtic</b>, sense animació",
-                  "es": "<b>Estático</b>, sin animación",
-                  "en": "<b>Static</b>, without animation"
-                }
+            {
+              "if": {
+                "and": [
+                  "lit=no"
+                ]
               },
-              {
-                "if": {
-                  "and": [
-                    "animated=yes"
-                  ]
-                },
-                "then": {
-                  "ca": "Si, però sense especificar",
-                  "es": "Si, pero sin especificar",
-                  "en": "Yes, but without specifying"
-                }
+              "then": {
+                "ca": "Aqust element no està il·luminat",
+                "es": "Este elemento no está iluminado",
+                "en": "This feature is not lit"
+              }
+            }
+          ]
+        },
+        {
+          "id": "animated",
+          "render": {
+            "ca": " Animat amb {animated}",
+            "es": "Animado con {animated}",
+            "en": "Animated with {animated}"
+          },
+          "question": {
+            "ca": "Aquest element canvia automàticaent d'anuncis?",
+            "es": "¿Este elemento canvia automáticamente de anuncios?",
+            "en": "Does this feature cycle through multiple advertisements automatically?"
+          },
+          "freeform": {
+            "key": "animated"
+          },
+          "mappings": [
+            {
+              "if": {
+                "and": [
+                  "animated=no"
+                ]
               },
-              {
-                "if": {
-                  "and": [
-                      "animated=screen"
-                  ]
-                },
-                "then": {
-                  "ca": "una <b>Pantalla</b>",
-                  "es": "una <b>Pantalla</b>",
-                  "en": "a <b>screen</b>"
-                }
+              "then": {
+                "ca": "<b>Estàtic</b>, sense animació",
+                "es": "<b>Estático</b>, sin animación",
+                "en": "<b>Static</b>, without animation"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "animated=digital_prices"
+                ]
               },
-              {
-                "if": {
-                  "and": [
-                      "animated=digital_prices"
-                  ]
-                },
-                "then": {
-                  "ca": "<b>Preus digitals</b>",
-                  "es": "<b>Precios digitales</b>",
-                  "en": "<b>Digital Prices</b>"
-                }
+              "then": {
+                "ca": "<b>Preus digitals</b>",
+                "es": "<b>Precios digitales</b>",
+                "en": "<b>Digital Prices</b>"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "animated=digital_message"
+                ]
               },
-              {
-                "if": {
-                  "and": [
-                      "animated=digital_message"
-                  ]
-                },
-                "then": {
-                  "ca": "un <b>Missatge digital</b>",
-                  "es": "un <b>Mensaje digital</b>",
-                  "en": "a <b>Digital message</b>"
-                }
+              "then": {
+                "ca": "un <b>Missatge digital</b>",
+                "es": "un <b>Mensaje digital</b>",
+                "en": "a <b>Digital message</b>"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "animated=travision_blades"
+                ]
               },
-              {
+              "then": {
+                "ca": "Trivision",
+                "es": "Trivision",
+                "en": "Trivision"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "animated=winding_posters"
+                ]
+              },
+              "then": {
+                "ca": "Cartells <b>Rotatius</b>",
+                "es": "Cartells <b>Rotatius</b>",
+                "en": "<b>Scrolling</b> posters"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "animated=revolving"
+                ]
+              },
+              "then": {
+                "ca": "<b>Rota</b> sobre si mateix",
+                "es": "<b>Rota</b> sobre si mismo",
+                "en": "<b>Rotates</b> on itself"
+              }
+            },
+            {
+              "if": {
+                "and": [
+                  "animated=yes"
+                ]
+              },
+              "then": {
+                "ca": "Si, però sense especificar",
+                "es": "Si, pero sin especificar",
+                "en": "Yes, but without specifying"
+              }
+            }
+          ]
+        },
+        {
+          "id": "message_type",
+          "render": {
+            "*": " {message}"
+            },
+            "question": {
+            "ca": "Quin tipus de missatge es mostra?",
+            "es": "Que tipo de mensaje se muestra?",
+            "en": "What kind of message is shown?"
+            },
+            "freeform": {
+                "key": "message"
+              },
+              "mappings": [
+                {
                   "if": {
                     "and": [
-                        "animated=travision_blades"
+                      "message=commercial"
                     ]
                   },
                   "then": {
-                    "ca": "Trivision",
-                    "es": "Trivision",
-                    "en": "Trivision"
+                    "ca": "Missatge comercial",
+                    "es": "Mensaje comercial",
+                    "en": "Commercial message"
                   }
                 },
                 {
                   "if": {
                     "and": [
-                        "animated=winding_posters"
+                        "message=local"
                     ]
                   },
                   "then": {
-                    "ca": "Cartells <b>Rotatius</b>",
-                    "es": "Cartells <b>Rotatius</b>",
-                    "en": "<b>Scrolling</b> posters"
+                    "ca": "Informació municipal",
+                    "es": "Información municipal",
+                    "en": "Local information"
                   }
                 },
                 {
                   "if": {
                     "and": [
-                        "animated=revolving"
+                      "message=safety"
                     ]
                   },
                   "then": {
-                    "ca": "<b>Rota</b> sobre si mateix",
-                    "es": "<b>Rota</b> sobre si mismo",
-                    "en": "<b>Rotates</b> on itself"
+                    "ca": "Informació de seguretat",
+                    "es": "Información de seguridad",
+                    "en": "Securty information"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "message=political"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Cartell electoral",
+                    "es": "Cartel electoral",
+                    "en": "Electoral sign"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "message=showbiz"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Informació sobre teatres, concerts, ...",
+                    "es": "Información sobre teatros, conciertos, ...",
+                    "en": "Inormation related to theatre, concerts, ..."
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "message=non_profit"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Cartell d'organitzacions sense ànim de lucre",
+                    "es": "Cartel de organizaciones sin ánimo de lucro",
+                    "en": "Sign from non-profit organizations"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "message=opinion"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Per a expressar la teua opinió",
+                    "es": "Para expresar tu opinión",
+                    "en": "To expres your opinion"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "message=religion"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Missatge religiós",
+                    "es": "Mensaje religioso",
+                    "en": "Religious message"
+                  }
+                },
+                {
+                  "if": {
+                    "and": [
+                      "message=funding"
+                    ]
+                  },
+                  "then": {
+                    "ca": "Cartell de financiació",
+                    "es": "Cartel de financiación",
+                    "en": "Funding sign"
                   }
                 }
             ]
         },
         {
-                  "render": {
-                  "*": " {message}"
-                  },
-                  "question": {
-                  "ca": "Quin tipus de missatge es mostra?",
-                  "es": "Que tipo de mensaje se muestra ?",
-                  "en": "What kind of message is shown?"
-                  },
-                  "freeform": {
-                      "key": "message"
-                    },
-                    "mappings": [
-                      {
-                        "if": {
-                          "and": [
-                            "message=commercial"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Missatge comercial",
-                          "es": "Mensaje comercial",
-                          "en": "Commercial message"
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                              "message=local"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Informació municipal",
-                          "es": "Información municipal",
-                          "en": "Local information"
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                            "message=safety"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Informació de seguretat",
-                          "es": "Información de seguridad",
-                          "en": "Securty information"
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                            "message=political"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Cartell electoral",
-                          "es": "Cartel electoral",
-                          "en": "Electoral sign"
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                            "message=showbiz"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Informació sobre teatres, concerts, ...",
-                          "es": "Información sobre teatros, conciertos, ...",
-                          "en": "Inormation related to theatre, concerts, ..."
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                            "message=non_profit"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Cartell d'organitzacions sense ànim de lucre",
-                          "es": "Cartel de organizaciones sin ánimo de lucro",
-                          "en": "Sign from non-profit organizations"
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                            "message=opinion"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Per a expressar la teua opinió",
-                          "es": "Para expresar tu opinión",
-                          "en": "To expres your opinion"
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                            "message=religion"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Missatge religiós",
-                          "es": "Mensaje religioso",
-                          "en": "Religious message"
-                        }
-                      },
-                      {
-                        "if": {
-                          "and": [
-                            "message=funding"
-                          ]
-                        },
-                        "then": {
-                          "ca": "Cartell de financiació",
-                          "es": "Cartel de financiación",
-                          "en": "Funding sign"
-                        }
-                      }
+          "id": "Sides",
+          "render": {
+            "ca": "Pots veure publicitat per {sides} costats",
+            "es": "Puedes ver publicidad por {sides} lados",
+            "en": "You can see adverstismetns from {sides} sides"
+            },
+            "question": {
+            "ca": "Per quants costats pots veure publicitat?",
+            "es": "¿Por cuantos lados puedes ver publicidad?",
+            "en": "From how many sides you can watch advertisments?"
+            },
+            "freeform": {
+            "key": "sides"
+            }
+        }
+      ],
+      "mapRendering": [
+        {
+          "location": [
+            "point",
+            "centroid"
+          ],
+          "icon": {
+            "render": "./assets/themes/advertising/icon.svg",
+            "mappings": [
+              {
+                "if": {
+                  "or": [
+                    "advertising=billboard"
                   ]
+                },
+                "then": "./assets/themes/advertising/billboard.svg"
               },
               {
-                "render": {
-                "ca": "Pots veure publicitat per {sides} costats",
-                "es": "Puedes ver publicidad por {sides} lados",
-                "en": "You can see adverstismetns from {sides} sides"
-                },
-                "question": {
-                "ca": "Per quants costats pots veure publicitat?",
-                "es": "¿Por cuantos lados puedes ver publicidad?",
-                "en": "From how many sides you can watch advertisments?"
-                },
-                "freeform": {
-                "key": "sides"
-                },
-                "mappings": []
-            }
+                "if": "advertising=board",
+                "then": "./assets/themes/advertising/board.svg"
+              },
+              {
+                "if": "advertising=column",
+                "then": "./assets/themes/advertising/column.svg"
+              },
+              {
+                "if": "advertising=flag",
+                "then": "./assets/themes/advertising/icon.svg"
+              },
+              {
+                "if": "advertising=poster_box",
+                "then": "./assets/themes/advertising/poster_box.svg"
+              },
+              {
+                "if": "advertising=screen",
+                "then": "./assets/themes/advertising/icon.svg"
+              },
+              {
+                "if": "advertising=sculpture",
+                "then": "./assets/themes/advertising/icon.svg"
+              },
+              {
+                "if": "advertising=sign",
+                "then": "./assets/themes/advertising/icon.svg"
+              },
+              {
+                "if": "advertising=tarp",
+                "then": "./assets/themes/advertising/icon.svg"
+              },
+              {
+                "if": "advertising=totem",
+                "then": "./assets/themes/advertising/totem.svg"
+              },
+              {
+                "if": "advertising=wall_painting",
+                "then": "./assets/themes/advertising/icon.svg"
+              }
+            ]
+          },
+          "iconSize": "40,40,bottom"
+        },
+        {
+          "width": {
+            "render": "8"
+          },
+          "color": {
+            "render": "#00f"
+          }
+        }
       ],
-      "hideUnderlayingFeaturesMinPercentage": 0,
-      "icon": {
-      "render": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Advertising_icon.svg",
-      "mappings": [
-          {
-          "if": {
-              "or": [
-              "advertising=billboard"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Billboard.svg",
-              "es": "https://wiki.openstreetmap.org/w/images/d/d3/Billboard_trunk.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=board"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Board_free.svg",
-              "es": "https://wiki.openstreetmap.org/w/images/5/56/Board.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=column"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Column_3.svg",
-              "es": "https://wiki.openstreetmap.org/w/images/e/e3/Column.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=flag"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
-              "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=poster_box"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Poster_box.svg",
-              "es": "https://wiki.openstreetmap.org/w/images/1/1f/Poster_box.svg"
-          }
-           },
-           {
-           "if": {
-               "or": [
-               "advertising=screen"
-              ]
-           },
-           "then": {
-              "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
-              "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
-           }
-           },
-           {
-          "if": {
-              "or": [
-              "advertising=sculpture"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
-              "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=sign"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
-              "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=tarp"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
-              "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=totem"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/pietervdvn/MapComplete/theme/advertising/assets/themes/advertising/Totem.svg",
-              "es": "https://wiki.openstreetmap.org/w/images/2/23/Totem.svg"
-          }
-          },
-          {
-          "if": {
-              "or": [
-              "advertising=wall_painting"
-              ]
-          },
-          "then": {
-              "ca": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg",
-              "es": "https://raw.githubusercontent.com/yopaseopor/mcquests/main/images/icones_adreces/casa_buida.svg"
-          }
-          }             
-      ]
+      "allowMove": {
+        "enableImproveAccuracy": true,
+        "enableRelocation": false
       },
-      "width": {
-      "render": "8"
-      },
-      "iconSize": {
-      "render": "40,40,center"
-      },
-      "color": {
-      "render": "#00f"
-      },
+      "deletion": true,
       "presets": [
-      {
+        {
           "tags": [
-          "advertising=billboard"
+            "advertising=billboard"
           ],
           "title": {
-          "ca": "una tanca publicitària",
-          "es": "una valla publicitària"
+            "en": "a billboard",
+            "ca": "una tanca publicitària",
+            "es": "una valla publicitària"
           },
           "description": {
-          "ca": "Les tanques publicitàries normalment són de gran tamany i estan situades prop de les carreteres",
-          "es": "Las vallas publicitarias normalment son de gran tamanó y están situadas cerca de las carreteras"
+            "en": "A large outdoor advertising structure, typically found in high-traffic areas such as alongside busy roads",
+            "ca": "Les tanques publicitàries normalment són de gran tamany i estan situades prop de les carreteres",
+            "es": "Las vallas publicitarias normalment son de gran tamanó y están situadas cerca de las carreteras"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=board"
+            "advertising=board"
           ],
           "title": {
-          "ca": "un tauló d'anuncis",
-          "es": "un tablón de anuncios",
-          "en": "a billboard"
+            "ca": "un tauló d'anunis",
+            "es": "un tablón de anuncios",
+            "en": "a billboard"
+          },
+          "description": {
+            "en": "Small billboard for neighbourhood advertising, generally intended for pedestrians",
+            "es": "Un pequeño tablón de anuncios para anuncios del vecindario, normalmente destinado a peatones",
+            "ca": "Un xicotet tauló d'anuncics per a anuncis del veïnat, normalment destitat a peatons"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=column"
+            "advertising=column"
           ],
           "title": {
-          "ca": "una columna",
-          "es": "una columna",
-          "en": "a column"
+            "ca": "una columna",
+            "es": "una columna",
+            "en": "a column"
+          },
+          "description": {
+            "en": "A cylindrical outdoor structure which shows advertisements",
+            "es": "Una estructura cilíndrica exterior que muestra publicidad",
+            "ca": "Una extructura cilíndica exterior que mostra publicitat"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=flag",
-          "man_made=pole"
+            "advertising=flag",
+            "man_made=pole"
           ],
           "title": {
-          "ca": "una bandera",
-          "es": "una bandera",
-          "en": "a flag"
+            "ca": "una bandera",
+            "es": "una bandera",
+            "en": "a flag"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=poster_box"
+            "advertising=poster_box"
           ],
           "title": {
-          "ca": "un mupi",
-          "es": "un mupi",
-          "en": "a poster box"
-
+            "ca": "un mupi",
+            "es": "un mupi",
+            "en": "a poster box"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=screen"
+            "advertising=screen"
           ],
           "title": {
-          "ca": "una pantalla",
-          "es": "una pantalla",
-          "en": "a screen"
+            "ca": "una pantalla",
+            "es": "una pantalla",
+            "en": "a screen"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=sculpture"
+            "advertising=sculpture"
           ],
           "title": {
-          "ca": "una escupltura",
-          "es": "una escultura",
-          "en": "an sculpture"
+            "ca": "una escupltura",
+            "es": "una escultura",
+            "en": "an sculpture"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=sign"
+            "advertising=sign"
           ],
           "title": {
-          "ca": "un lletrer",
-          "es": "un lletrer",
-          "en": "a sign"
+            "ca": "un lletrer",
+            "es": "un lletrer",
+            "en": "a sign"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=tarp"
+            "advertising=tarp"
           ],
           "title": {
-          "ca": "una lona",
-          "es": "una lona",
-          "en": "a tarp"
+            "ca": "una lona",
+            "es": "una lona",
+            "en": "a tarp"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=totem"
+            "advertising=totem"
           ],
           "title": {
-          "ca": "un tòtem",
-          "es": "un tótem",
-          "en": "a totem"
+            "ca": "un tòtem",
+            "es": "un tótem",
+            "en": "a totem"
           }
-      },
-      {
+        },
+        {
           "tags": [
-          "advertising=wall_painting"
+            "advertising=wall_painting"
           ],
           "title": {
-          "ca": "una pintura a la paret",
-          "es": "una pitura en la pared",
-          "en": "a wall painted"
+            "ca": "una pintura a la paret",
+            "es": "una pitura en la pared",
+            "en": "a wall painted"
           }
-      }
-      ],
-      "wayHandling": 1
-  }
-  ],
-  "roamingRenderings": []
+        }
+      ]
+    }
+  ]
 }
