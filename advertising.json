@@ -492,6 +492,9 @@
                 "ca": "<b>Preus digitals</b>",
                 "es": "<b>Precios digitales</b>",
                 "en": "<b>Digital Prices</b>"
+              },
+              "hideInAnswer": { 
+                "and": ["advertising=flag", "advertising=sculpture", "advertising=tarp", "advertising=wall_painting"]
               }
             },
             {
@@ -516,7 +519,11 @@
                 "ca": "Trivision",
                 "es": "Trivision",
                 "en": "Trivision"
+              },
+              "hideInAnswer": { 
+                "and": ["advertising=screen", "advertising=column", "advertising=tarp", "advertising=wall_painting", "advertising=column", "advertising=sculpture"]
               }
+              
             },
             {
               "if": {
@@ -528,6 +535,9 @@
                 "ca": "Cartells <b>Rotatius</b>",
                 "es": "Cartells <b>Rotatius</b>",
                 "en": "<b>Scrolling</b> posters"
+              },
+              "hideInAnswer": { 
+                "and": ["advertising!=poster_box", "advertising!=billboard", "advertising!=board"]
               }
             },
             {
@@ -540,6 +550,9 @@
                 "ca": "<b>Rota</b> sobre si mateix",
                 "es": "<b>Rota</b> sobre si mismo",
                 "en": "<b>Rotates</b> on itself"
+              },
+              "hideInAnswer": { 
+                "and": ["advertising=flag", "advertising!=board", "advertising=tarp", "advertising=wall_painting"]
               }
             },
             {
@@ -552,6 +565,9 @@
                 "ca": "Aquest element publicitari canvia de publicitat automàticament",
                 "es": "Este elemento publicitario cambia de publicidad automaticamente",
                 "en": "This advertisement feature cycles through different advertisements automatically"
+              },
+              "hideInAnswer": { 
+                "and": ["advertising=flag"]
               }
             }
           ]
