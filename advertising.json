@@ -507,6 +507,9 @@
                 "ca": "un <b>Missatge digital</b>",
                 "es": "un <b>Mensaje digital</b>",
                 "en": "a <b>Digital message</b>"
+              },
+              "hideInAnswer": { 
+                "and": ["advertising=flag"]
               }
             },
             {
@@ -521,7 +524,7 @@
                 "en": "Trivision"
               },
               "hideInAnswer": { 
-                "and": ["advertising=screen", "advertising=column", "advertising=tarp", "advertising=wall_painting", "advertising=column", "advertising=sculpture"]
+                "or": ["advertising:=screen", "advertising:=column", "advertising:=tarp", "advertising:=wall_painting", "advertising:=column", "advertising:=sculpture"]
               }
               
             },
