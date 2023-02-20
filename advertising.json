@@ -479,7 +479,7 @@
                 "en": "<b>Static</b>, without animation"
               },
               "hideInAnswer": { 
-                "and": ["advertising!=screen"]
+                "and": ["advertising=screen"]
               }
             },
             {
