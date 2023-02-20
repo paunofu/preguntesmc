@@ -554,13 +554,6 @@
               "hideInAnswer": { 
                 "and": ["advertising=flag", "advertising!=board", "advertising=tarp", "advertising=wall_painting"]
               }
-            },
-            {
-              "if": {
-                "and": [
-                  "animated=yes"
-                ]
-              }
             }
           ]
         },
