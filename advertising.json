@@ -560,14 +560,6 @@
                 "and": [
                   "animated=yes"
                 ]
-              },
-              "then": {
-                "ca": "Aquest element publicitari canvia de publicitat automàticament",
-                "es": "Este elemento publicitario cambia de publicidad automaticamente",
-                "en": "This advertisement feature cycles through different advertisements automatically"
-              },
-              "hideInAnswer": { 
-                "and": ["advertising=flag"]
               }
             }
           ]
