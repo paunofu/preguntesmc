@@ -494,7 +494,7 @@
                 "en": "<b>Digital Prices</b>"
               },
               "hideInAnswer": { 
-                "and": ["advertising:=flag", "advertising:=sculpture", "advertising:=tarp", "advertising:=wall_painting"]
+                "and": ["advertising:=flag", "advertising:=sculpture", "advertising:=tarp", "advertising:=wall_painting", "advertising:=board"]
               }
             },
             {
@@ -524,7 +524,7 @@
                 "en": "Trivision"
               },
               "hideInAnswer": { 
-                "or": ["advertising:=screen", "advertising:=column", "advertising:=tarp", "advertising:=wall_painting", "advertising:=column", "advertising:=sculpture"]
+                "or": ["advertising:=screen", "advertising:=column", "advertising:=tarp", "advertising:=wall_painting", "advertising:=column", "advertising:=sculpture", "advertising:=board"]
               }
               
             },
@@ -540,7 +540,7 @@
                 "en": "<b>Scrolling</b> posters"
               },
               "hideInAnswer": { 
-                "and": ["advertising!=poster_box", "advertising!=billboard", "advertising!=board"]
+                "or": ["advertising!=poster_box", "advertising!=billboard", "advertising!=board"]
               }
             },
             {
@@ -555,7 +555,7 @@
                 "en": "<b>Rotates</b> on itself"
               },
               "hideInAnswer": { 
-                "and": ["advertising:=flag", "advertising:=board", "advertising:=tarp", "advertising:=wall_painting"]
+                "or": ["advertising:=flag", "advertising:=board", "advertising:=tarp", "advertising:=wall_painting"]
               }
             }
           ]
