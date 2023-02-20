@@ -494,7 +494,7 @@
                 "en": "<b>Digital Prices</b>"
               },
               "hideInAnswer": { 
-                "and": ["advertising=flag", "advertising=sculpture", "advertising=tarp", "advertising=wall_painting"]
+                "and": ["advertising:=flag", "advertising:=sculpture", "advertising:=tarp", "advertising:=wall_painting"]
               }
             },
             {
@@ -555,7 +555,7 @@
                 "en": "<b>Rotates</b> on itself"
               },
               "hideInAnswer": { 
-                "and": ["advertising=flag", "advertising!=board", "advertising=tarp", "advertising=wall_painting"]
+                "and": ["advertising:=flag", "advertising:=board", "advertising:=tarp", "advertising:=wall_painting"]
               }
             }
           ]
