@@ -724,9 +724,9 @@
                   ]
                 },
                 "then": {
-                  "ca": "Pots veure publicitat per {sides} costats",
-                  "es": "1",
-                  "en": "1"
+                  "ca": "Pots veure publicitat per {sides} costat",
+                  "es": "Puedes ver publicidad por {sides} lado",
+                  "en": "You can see adverstismetns from {sides} side"
                 }
               },
               {
@@ -737,8 +737,8 @@
                 },
                 "then": {
                   "ca": "Pots veure publicitat per {sides} costats",
-                  "es": "2",
-                  "en": "2"
+                  "es": "Puedes ver publicidad por {sides} lados",
+                  "en": "You can see adverstismetns from {sides} sides"
                 }
               },
               {
@@ -749,8 +749,8 @@
                 },
                 "then": {
                   "ca": "Pots veure publicitat per {sides} costats",
-                  "es": "3",
-                  "en": "3"
+                  "es": "Puedes ver publicidad por {sides} lados",
+                  "en": "You can see adverstismetns from {sides} sides"
                 }
               },{
                 "if": {
@@ -760,8 +760,8 @@
                 },
                 "then": {
                   "ca": "Pots veure publicitat per {sides} costats",
-                  "es": "4",
-                  "en": "4"
+                  "es": "Puedes ver publicidad por {sides} lados",
+                  "en": "You can see adverstismetns from {sides} sides"
                 }
               }
             ]
