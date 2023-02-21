@@ -724,9 +724,9 @@
                   ]
                 },
                 "then": {
-                  "ca": "1",
-                  "es": "1",
-                  "en": "1"
+                  "ca": "Pots veure publicitat per {sides} costat",
+                  "es": "Puedes ver publicidad por {sides} lado",
+                  "en": "You can see adverstismetns from {sides} side"
                 }
               },
               {
