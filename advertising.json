@@ -722,6 +722,11 @@
                   "and": [
                     "sides=1"
                   ]
+                },
+                "then": {
+                  "ca": "Pots veure publicitat per {sides} costats",
+                  "es": "1",
+                  "en": "1"
                 }
               },
               {
@@ -729,6 +734,11 @@
                   "and": [
                     "sides=2"
                   ]
+                },
+                "then": {
+                  "ca": "Pots veure publicitat per {sides} costats",
+                  "es": "2",
+                  "en": "2"
                 }
               },
               {
@@ -736,12 +746,22 @@
                   "and": [
                     "sides=3"
                   ]
+                },
+                "then": {
+                  "ca": "Pots veure publicitat per {sides} costats",
+                  "es": "3",
+                  "en": "3"
                 }
               },{
                 "if": {
                   "and": [
                     "sides=4"
                   ]
+                },
+                "then": {
+                  "ca": "Pots veure publicitat per {sides} costats",
+                  "es": "4",
+                  "en": "4"
                 }
               }
             ]
