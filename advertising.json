@@ -691,7 +691,7 @@
                     "en": "Funding sign"
                   },
                   "hideInAnswer": { 
-                    "and": ["advertising=flag"]
+                    "or": ["advertising:=flag", "advertising:=column"]
                   }
                 }
             ]
