@@ -698,7 +698,11 @@
         },
         {
           "id": "Sides",
-          "condition": ["advertising!=flag|column"],
+          "condition": {
+            "and": [
+              "advertising!~flag", "advertising!~column"
+            ]
+          },
           "render": {
             "ca": "Pots veure publicitat per {sides} costats",
             "es": "Puedes ver publicidad por {sides} lados",
