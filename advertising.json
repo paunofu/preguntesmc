@@ -715,7 +715,56 @@
             },
             "freeform": {
             "key": "sides"
-            }
+            },
+            "mappings": [
+              {
+                "if": {
+                  "and": [
+                    "sides=1"
+                  ]
+                },
+                "then": {
+                  "ca": "1",
+                  "es": "1",
+                  "en": "1"
+                }
+              },
+              {
+                "if": {
+                  "and": [
+                    "sides=2"
+                  ]
+                },
+                "then": {
+                  "ca": "2",
+                  "es": "2",
+                  "en": "2"
+                }
+              },
+              {
+                "if": {
+                  "and": [
+                    "sides=3"
+                  ]
+                },
+                "then": {
+                  "ca": "3",
+                  "es": "3",
+                  "en": "3"
+                }
+              },{
+                "if": {
+                  "and": [
+                    "sides=4"
+                  ]
+                },
+                "then": {
+                  "ca": "4",
+                  "es": "4",
+                  "en": "4"
+                }
+              }
+            ]
         }
       ],
       "mapRendering": [
