@@ -608,7 +608,10 @@
                     "ca": "Informació de seguretat",
                     "es": "Información de seguridad",
                     "en": "Securty information"
-                  }
+                  },
+                  "hideInAnswer": { 
+                    "and": ["advertising=flag"]
+                  } 
                 },
                 {
                   "if": {
@@ -617,9 +620,9 @@
                     ]
                   },
                   "then": {
-                    "ca": "Cartell electoral",
-                    "es": "Cartel electoral",
-                    "en": "Electoral sign"
+                    "ca": "Publicitat electoral",
+                    "es": "Publicidad electoral",
+                    "en": "Electoral advertising"
                   }
                 },
                 {
@@ -632,6 +635,9 @@
                     "ca": "Informació sobre teatres, concerts, ...",
                     "es": "Información sobre teatros, conciertos, ...",
                     "en": "Inormation related to theatre, concerts, ..."
+                  },
+                  "hideInAnswer": { 
+                    "and": ["advertising=flag"]
                   }
                 },
                 {
@@ -656,6 +662,9 @@
                     "ca": "Per a expressar la teua opinió",
                     "es": "Para expresar tu opinión",
                     "en": "To expres your opinion"
+                  },
+                  "hideInAnswer": { 
+                    "and": ["advertising=flag"]
                   }
                 },
                 {
@@ -680,6 +689,9 @@
                     "ca": "Cartell de financiació",
                     "es": "Cartel de financiación",
                     "en": "Funding sign"
+                  },
+                  "hideInAnswer": { 
+                    "and": ["advertising=flag"]
                   }
                 }
             ]
