@@ -664,7 +664,7 @@
                     "en": "To expres your opinion"
                   },
                   "hideInAnswer": { 
-                    "and": ["advertising=flag"]
+                    "or": ["advertising:=flag", "advertising:=screen"]
                   }
                 },
                 {
@@ -698,6 +698,7 @@
         },
         {
           "id": "Sides",
+          "condition": "advertising!=flag",
           "render": {
             "ca": "Pots veure publicitat per {sides} costats",
             "es": "Puedes ver publicidad por {sides} lados",
