@@ -2,19 +2,19 @@
     "id": "aparcabicis",
     "credits": "Offsel",
     "title": {
-    "ca": "Camps de bàsquet",
-    "es": "Campo de baloncesto",
-    "en": "Basketball pitches"
+    "ca": "Aparcabicis a la Marina",
+    "es": "Aparcabicis a la Marina",
+    "en": "Bike parking at Marina"
     },
     "shortDescription": {
-    "ca": "On puc trobar camps de bàquest? I el seu estat?",
-    "es": "Dónde puedo encontrar campos de baloncesto? Y su estado?",
-    "en": "Where I can find basketball pitches? And theri status?"
+    "ca": "Ajuda a completar els aparcabicis de la Marina",
+    "es": "Ayuda a completar los aparcabicis de La Marina",
+    "en": "Help to complete bike parkings at Marina"
     },
     "description": {
-        "ca": "Troba pistes de bàsquet i completa la seua informació com ara si estan iluminades o no, el seu estat o quantes cistelles té entre altes coses",
-        "es": "Encuentra pistas de baloncesto y completa su iformación como si están iluminadas o no, su estado o cuantas canastas tiene entre otras cosas",
-        "en": "Find basketball courts and complete their information like if they are illuminated or not, their status or how many hoops they have"
+    "ca": "Cada vegada més les bicicletes estan convertint-se en una nova alternativa de mobilitat, però com qualsevol vehicles l'has d'aparcar en arribar al teu destí, a aquest mapa podras visualitzar, afegir i completar informació dels aparcabicis. <br> Aquest mapa és una adapctació de <a href="https://mapcomplete.osm.be/cyclofix.html?z=16&lat=38.83899&lon=0.106773&language=ca'> cyclofix.com </a>,
+    "es": "Encuentra pistas de baloncesto y completa su iformación como si están iluminadas o no, su estado o cuantas canastas tiene entre otras cosas",
+    "en": "Find basketball courts and complete their information like if they are illuminated or not, their status or how many hoops they have"
     },
     "language": [
     "ca",
@@ -23,7 +23,7 @@
     ],
     "maintainer": "Offsel",
     "icon": "",
-    "version": "2023_02_08",
+    "version": "2023_03_15",
     "startLat": 0,
     "startLon": 0,
     "startZoom": 1,
